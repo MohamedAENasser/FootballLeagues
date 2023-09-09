@@ -14,7 +14,7 @@ enum HTTPMethod: String {
 protocol DataRequestProtocol {
     associatedtype Response
 
-    var baseUrl: String { get }
+    var baseURL: String { get }
     var urlPath: String { get }
     var method: HTTPMethod { get }
     var headers: [String : String] { get }
@@ -31,11 +31,11 @@ extension DataRequestProtocol where Response: Decodable {
 
 extension DataRequestProtocol {
     var url: String {
-        baseUrl + urlPath
+        baseURL + urlPath
     }
 
-    var baseUrl: String {
-        Constants.Network.baseUrl
+    var baseURL: String {
+        Constants.Network.baseURL
     }
 
     var headers: [String : String] {

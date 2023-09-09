@@ -8,7 +8,13 @@
 import SwiftUI
 
 struct LeagueCell: View {
+    @ObservedObject var viewModel: LeagueCellViewModel
     let competition: Competition
+
+    init(competition: Competition) {
+        self.competition = competition
+        viewModel = LeagueCellViewModel(competitionID: competition.id)
+    }
 
     var body: some View {
         HStack {
@@ -19,6 +25,11 @@ struct LeagueCell: View {
 
             Spacer()
 
+        }
+        .onAppear {
+            Task {
+                await viewModel.getTeams()
+            }
         }
     }
 
@@ -63,7 +74,7 @@ struct LeagueCell: View {
 
     var numberOfTeamsView: some View {
         VStack(alignment: .center, spacing: 0) {
-            Text("12") // TODO: Show the actual number of teams from the proper api
+            Text("\(viewModel.teams.count)")
 
             Image("team-icon")
                 .resizable()
