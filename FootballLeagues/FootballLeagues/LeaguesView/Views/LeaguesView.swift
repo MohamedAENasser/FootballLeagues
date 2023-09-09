@@ -16,7 +16,7 @@ struct LeaguesView: View {
             switch viewModel.state {
             case .success(let competitions):
                 List(competitions, id: \.id) { competition in
-                    Text(competition.name)
+                    LeagueCell(competition: competition)
                 }
 
             case .failure(let error):

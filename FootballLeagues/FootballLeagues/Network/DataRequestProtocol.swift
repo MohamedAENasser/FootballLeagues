@@ -14,10 +14,10 @@ enum HTTPMethod: String {
 protocol DataRequestProtocol {
     associatedtype Response
 
-    var url: String { get }
+    var baseUrl: String { get }
+    var urlPath: String { get }
     var method: HTTPMethod { get }
     var headers: [String : String] { get }
-    var queryItems: [String : String] { get }
 
     func decode(_ data: Data) throws -> Response
 }
@@ -30,11 +30,18 @@ extension DataRequestProtocol where Response: Decodable {
 }
 
 extension DataRequestProtocol {
-    var headers: [String : String] {
-        [:]
+    var url: String {
+        baseUrl + urlPath
     }
 
-    var queryItems: [String : String] {
-        [:]
+    var baseUrl: String {
+        Constants.Network.baseUrl
+    }
+
+    var headers: [String : String] {
+        [
+            "Content-Type": "application/json",
+            "X-Auth-Token": Constants.Network.apiKey
+        ]
     }
 }
