@@ -10,6 +10,7 @@ import Foundation
 enum AppError: Error {
     case invalidEndpoint
     case failedToLoadData
+    case restrictedContent
 
     var description: String {
         switch self {
@@ -18,6 +19,9 @@ enum AppError: Error {
 
         case .failedToLoadData:
             return "We couldn't load your data\n please try again"
+
+        case .restrictedContent:
+            return "Please upgrade your plan"
         }
     }
 }
