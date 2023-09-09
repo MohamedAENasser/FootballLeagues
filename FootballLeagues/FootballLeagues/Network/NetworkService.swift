@@ -16,20 +16,7 @@ final class NetworkService: NetworkServiceProtocol {
     func request<Request: DataRequestProtocol>(_ request: Request) async -> Result<Request.Response, AppError> {
         return await withCheckedContinuation { continuation in
 
-            guard var urlComponent = URLComponents(string: request.url) else {
-                return continuation.resume(returning: .failure(.failedToLoadData))
-            }
-
-            var queryItems: [URLQueryItem] = []
-
-            request.queryItems.forEach {
-                let urlQueryItem = URLQueryItem(name: $0.key, value: $0.value)
-                queryItems.append(urlQueryItem)
-            }
-
-            urlComponent.queryItems = queryItems
-
-            guard let url = urlComponent.url else {
+            guard var url = URLComponents(string: request.url)?.url else {
                 return continuation.resume(returning: .failure(.failedToLoadData))
             }
 
