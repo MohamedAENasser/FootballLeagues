@@ -31,7 +31,11 @@ final class NetworkService: NetworkServiceProtocol {
 
                 guard let response = response as? HTTPURLResponse, 200..<300 ~= response.statusCode,
                       let data = data else {
-                    return continuation.resume(returning: .failure(.failedToLoadData))
+                    if (response as? HTTPURLResponse)?.statusCode == 403 {
+                        return continuation.resume(returning: .failure(.restrictedContent))
+                    } else {
+                        return continuation.resume(returning: .failure(.failedToLoadData))
+                    }
                 }
 
                 do {
