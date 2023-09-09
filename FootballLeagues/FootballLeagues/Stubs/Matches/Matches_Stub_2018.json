@@ -1,0 +1,2416 @@
+{
+
+    "count": 51,
+    "filters": {},
+    "competition": {
+        "id": 2018,
+        "area": {
+            "id": 2077,
+            "name": "Europe"
+        },
+        "name": "European Championship",
+        "code": "EC",
+        "plan": "TIER_ONE",
+        "lastUpdated": "2021-07-20T18:34:04Z"
+    },
+    "matches": [
+        {
+            "id": 428747,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-06-14T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 1,
+            "stage": "GROUP_STAGE",
+            "group": "GROUP_A",
+            "lastUpdated": "2022-11-08T07:38:32Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428746,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-06-15T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 1,
+            "stage": "GROUP_STAGE",
+            "group": "GROUP_A",
+            "lastUpdated": "2022-11-08T07:38:32Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428752,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-06-15T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 1,
+            "stage": "GROUP_STAGE",
+            "group": "GROUP_B",
+            "lastUpdated": "2022-11-08T07:38:32Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428753,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-06-15T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 1,
+            "stage": "GROUP_STAGE",
+            "group": "GROUP_B",
+            "lastUpdated": "2022-11-08T07:38:32Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428758,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-06-16T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 1,
+            "stage": "GROUP_STAGE",
+            "group": "GROUP_C",
+            "lastUpdated": "2022-11-08T07:38:33Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428759,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-06-16T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 1,
+            "stage": "GROUP_STAGE",
+            "group": "GROUP_C",
+            "lastUpdated": "2022-11-08T07:38:33Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428765,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-06-16T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 1,
+            "stage": "GROUP_STAGE",
+            "group": "GROUP_D",
+            "lastUpdated": "2022-11-08T07:38:34Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428764,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-06-17T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 1,
+            "stage": "GROUP_STAGE",
+            "group": "GROUP_D",
+            "lastUpdated": "2022-11-08T07:38:34Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428770,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-06-17T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 1,
+            "stage": "GROUP_STAGE",
+            "group": "GROUP_E",
+            "lastUpdated": "2022-11-08T07:38:35Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428771,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-06-17T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 1,
+            "stage": "GROUP_STAGE",
+            "group": "GROUP_E",
+            "lastUpdated": "2022-11-08T07:38:35Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428776,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-06-18T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 1,
+            "stage": "GROUP_STAGE",
+            "group": "GROUP_F",
+            "lastUpdated": "2022-11-08T07:38:35Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428777,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-06-18T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 1,
+            "stage": "GROUP_STAGE",
+            "group": "GROUP_F",
+            "lastUpdated": "2022-11-08T07:38:35Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428744,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-06-19T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 2,
+            "stage": "GROUP_STAGE",
+            "group": "GROUP_A",
+            "lastUpdated": "2022-11-08T07:38:31Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428745,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-06-19T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 2,
+            "stage": "GROUP_STAGE",
+            "group": "GROUP_A",
+            "lastUpdated": "2022-11-08T07:38:31Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428751,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-06-19T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 2,
+            "stage": "GROUP_STAGE",
+            "group": "GROUP_B",
+            "lastUpdated": "2022-11-08T07:38:32Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428750,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-06-20T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 2,
+            "stage": "GROUP_STAGE",
+            "group": "GROUP_B",
+            "lastUpdated": "2022-11-08T07:38:32Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428756,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-06-20T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 2,
+            "stage": "GROUP_STAGE",
+            "group": "GROUP_C",
+            "lastUpdated": "2022-11-08T07:38:33Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428757,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-06-20T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 2,
+            "stage": "GROUP_STAGE",
+            "group": "GROUP_C",
+            "lastUpdated": "2022-11-08T07:38:33Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428762,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-06-21T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 2,
+            "stage": "GROUP_STAGE",
+            "group": "GROUP_D",
+            "lastUpdated": "2022-11-08T07:38:34Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428763,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-06-21T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 2,
+            "stage": "GROUP_STAGE",
+            "group": "GROUP_D",
+            "lastUpdated": "2022-11-08T07:38:34Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428769,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-06-21T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 2,
+            "stage": "GROUP_STAGE",
+            "group": "GROUP_E",
+            "lastUpdated": "2022-11-08T07:38:34Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428768,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-06-22T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 2,
+            "stage": "GROUP_STAGE",
+            "group": "GROUP_E",
+            "lastUpdated": "2022-11-08T07:38:34Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428774,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-06-22T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 2,
+            "stage": "GROUP_STAGE",
+            "group": "GROUP_F",
+            "lastUpdated": "2022-11-08T07:38:35Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428775,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-06-22T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 2,
+            "stage": "GROUP_STAGE",
+            "group": "GROUP_F",
+            "lastUpdated": "2022-11-08T07:38:35Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428742,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-06-23T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 3,
+            "stage": "GROUP_STAGE",
+            "group": "GROUP_A",
+            "lastUpdated": "2022-11-08T07:38:31Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428743,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-06-23T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 3,
+            "stage": "GROUP_STAGE",
+            "group": "GROUP_A",
+            "lastUpdated": "2022-11-08T07:38:31Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428748,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-06-24T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 3,
+            "stage": "GROUP_STAGE",
+            "group": "GROUP_B",
+            "lastUpdated": "2022-11-08T07:38:32Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428749,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-06-24T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 3,
+            "stage": "GROUP_STAGE",
+            "group": "GROUP_B",
+            "lastUpdated": "2022-11-08T07:38:32Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428754,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-06-25T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 3,
+            "stage": "GROUP_STAGE",
+            "group": "GROUP_C",
+            "lastUpdated": "2022-11-08T07:38:33Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428755,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-06-25T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 3,
+            "stage": "GROUP_STAGE",
+            "group": "GROUP_C",
+            "lastUpdated": "2022-11-08T07:38:33Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428760,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-06-25T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 3,
+            "stage": "GROUP_STAGE",
+            "group": "GROUP_D",
+            "lastUpdated": "2022-11-08T07:38:33Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428761,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-06-25T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 3,
+            "stage": "GROUP_STAGE",
+            "group": "GROUP_D",
+            "lastUpdated": "2022-11-08T07:38:33Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428766,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-06-26T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 3,
+            "stage": "GROUP_STAGE",
+            "group": "GROUP_E",
+            "lastUpdated": "2022-11-08T07:38:34Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428767,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-06-26T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 3,
+            "stage": "GROUP_STAGE",
+            "group": "GROUP_E",
+            "lastUpdated": "2022-11-08T07:38:34Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428772,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-06-26T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 3,
+            "stage": "GROUP_STAGE",
+            "group": "GROUP_F",
+            "lastUpdated": "2022-11-08T07:38:35Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428773,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-06-26T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": 3,
+            "stage": "GROUP_STAGE",
+            "group": "GROUP_F",
+            "lastUpdated": "2022-11-08T07:38:35Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428791,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-06-29T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": null,
+            "stage": "LAST_16",
+            "group": null,
+            "lastUpdated": "2022-11-08T07:38:37Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428792,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-06-29T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": null,
+            "stage": "LAST_16",
+            "group": null,
+            "lastUpdated": "2022-11-08T07:38:37Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428789,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-06-30T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": null,
+            "stage": "LAST_16",
+            "group": null,
+            "lastUpdated": "2022-11-08T07:38:37Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428790,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-06-30T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": null,
+            "stage": "LAST_16",
+            "group": null,
+            "lastUpdated": "2022-11-08T07:38:37Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428787,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-07-01T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": null,
+            "stage": "LAST_16",
+            "group": null,
+            "lastUpdated": "2022-11-08T07:38:37Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428788,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-07-01T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": null,
+            "stage": "LAST_16",
+            "group": null,
+            "lastUpdated": "2022-11-08T07:38:37Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428785,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-07-02T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": null,
+            "stage": "LAST_16",
+            "group": null,
+            "lastUpdated": "2022-11-08T07:38:36Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428786,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-07-02T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": null,
+            "stage": "LAST_16",
+            "group": null,
+            "lastUpdated": "2022-11-08T07:38:37Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428783,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-07-05T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": null,
+            "stage": "QUARTER_FINALS",
+            "group": null,
+            "lastUpdated": "2022-11-08T07:38:36Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428784,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-07-05T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": null,
+            "stage": "QUARTER_FINALS",
+            "group": null,
+            "lastUpdated": "2022-11-08T07:38:36Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428781,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-07-06T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": null,
+            "stage": "QUARTER_FINALS",
+            "group": null,
+            "lastUpdated": "2022-11-08T07:38:36Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428782,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-07-06T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": null,
+            "stage": "QUARTER_FINALS",
+            "group": null,
+            "lastUpdated": "2022-11-08T07:38:36Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428780,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-07-09T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": null,
+            "stage": "SEMI_FINALS",
+            "group": null,
+            "lastUpdated": "2022-11-08T07:38:36Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428779,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-07-10T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": null,
+            "stage": "SEMI_FINALS",
+            "group": null,
+            "lastUpdated": "2022-11-08T07:38:36Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        },
+        {
+            "id": 428778,
+            "season": {
+                "id": 1537,
+                "startDate": "2024-06-14",
+                "endDate": "2024-07-14",
+                "currentMatchday": 1
+            },
+            "utcDate": "2024-07-14T19:00:00Z",
+            "status": "SCHEDULED",
+            "matchday": null,
+            "stage": "FINAL",
+            "group": null,
+            "lastUpdated": "2022-11-08T07:38:36Z",
+            "odds": {
+                "msg": "Activate Odds-Package in User-Panel to retrieve odds."
+            },
+            "score": {
+                "winner": null,
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "halfTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "extraTime": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                },
+                "penalties": {
+                    "homeTeam": null,
+                    "awayTeam": null
+                }
+            },
+            "homeTeam": {
+                "id": null,
+                "name": null
+            },
+            "awayTeam": {
+                "id": null,
+                "name": null
+            },
+            "referees": []
+        }
+    ]
+
+}

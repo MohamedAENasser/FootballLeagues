@@ -21,7 +21,6 @@ class LeagueCellViewModel: ObservableObject {
 
     /// Get teams data from the backend.
     @MainActor func getTeams() async {
-        if competitionID != 2021 { return }
         let result = await networkService.request(teamsRequest)
 
         switch result {
