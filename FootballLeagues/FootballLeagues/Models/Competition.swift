@@ -1,5 +1,5 @@
 //
-//  Team.swift
+//  Competition.swift
 //  FootballLeagues
 //
 //  Created by Mohamed Abd ElNasser on 09/09/2023.
@@ -7,11 +7,11 @@
 
 import Foundation
 
-// MARK: - Team
-struct Team: Codable {
-    let id: Int?
-    let name, code: String?
-    let emblemURL: String?
+// MARK: - Competition
+struct Competition: Codable {
+    let id: Int
+    let name: String
+    let emblemURL, code: String?
     let plan: String?
     let numberOfAvailableSeasons: Int?
     let lastUpdated: String?
