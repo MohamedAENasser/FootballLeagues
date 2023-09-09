@@ -9,5 +9,5 @@ import Foundation
 
 struct CompetitionsResponse: Codable {
     let count: Int
-    let competitions: [Team]
+    let competitions: [Competition]
 }

@@ -1,5 +1,5 @@
 //
-//  TeamsRequest.swift
+//  CompetitionsRequest.swift
 //  FootballLeagues
 //
 //  Created by Mohamed Abd ElNasser on 09/09/2023.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct TeamsRequest: DataRequestProtocol {
+struct CompetitionsRequest: DataRequestProtocol {
     typealias Response = CompetitionsResponse
 
     var url: String {
