@@ -22,6 +22,33 @@
 		CF1C2A312AACFC1900862A68 /* TeamsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C2A302AACFC1900862A68 /* TeamsRequest.swift */; };
 		CF1C2A342AACFC5D00862A68 /* TeamsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C2A332AACFC5D00862A68 /* TeamsResponse.swift */; };
 		CF1C2A382AACFC9B00862A68 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C2A372AACFC9B00862A68 /* Team.swift */; };
+		CF1C2A552AAD212600862A68 /* Teams_Stub_2021.json in Resources */ = {isa = PBXBuildFile; fileRef = CF1C2A492AAD212500862A68 /* Teams_Stub_2021.json */; };
+		CF1C2A572AAD212A00862A68 /* Teams_Stub_2013.json in Resources */ = {isa = PBXBuildFile; fileRef = CF1C2A3A2AAD1F8600862A68 /* Teams_Stub_2013.json */; };
+		CF1C2A652AAD216E00862A68 /* Teams_Stub_2014.json in Resources */ = {isa = PBXBuildFile; fileRef = CF1C2A582AAD216D00862A68 /* Teams_Stub_2014.json */; };
+		CF1C2A662AAD216E00862A68 /* Teams_Stub_2019.json in Resources */ = {isa = PBXBuildFile; fileRef = CF1C2A592AAD216D00862A68 /* Teams_Stub_2019.json */; };
+		CF1C2A672AAD216E00862A68 /* Teams_Stub_2152.json in Resources */ = {isa = PBXBuildFile; fileRef = CF1C2A5A2AAD216D00862A68 /* Teams_Stub_2152.json */; };
+		CF1C2A682AAD216E00862A68 /* Teams_Stub_2002.json in Resources */ = {isa = PBXBuildFile; fileRef = CF1C2A5B2AAD216D00862A68 /* Teams_Stub_2002.json */; };
+		CF1C2A692AAD216E00862A68 /* Teams_Stub_2015.json in Resources */ = {isa = PBXBuildFile; fileRef = CF1C2A5C2AAD216D00862A68 /* Teams_Stub_2015.json */; };
+		CF1C2A6A2AAD216E00862A68 /* Teams_Stub_2000.json in Resources */ = {isa = PBXBuildFile; fileRef = CF1C2A5D2AAD216D00862A68 /* Teams_Stub_2000.json */; };
+		CF1C2A6B2AAD216E00862A68 /* Teams_Stub_2017.json in Resources */ = {isa = PBXBuildFile; fileRef = CF1C2A5E2AAD216D00862A68 /* Teams_Stub_2017.json */; };
+		CF1C2A6C2AAD216E00862A68 /* Teams_Stub_2001.json in Resources */ = {isa = PBXBuildFile; fileRef = CF1C2A5F2AAD216D00862A68 /* Teams_Stub_2001.json */; };
+		CF1C2A6D2AAD216E00862A68 /* Teams_Stub_2018.json in Resources */ = {isa = PBXBuildFile; fileRef = CF1C2A602AAD216D00862A68 /* Teams_Stub_2018.json */; };
+		CF1C2A6E2AAD216E00862A68 /* Teams_Stub_2003.json in Resources */ = {isa = PBXBuildFile; fileRef = CF1C2A612AAD216D00862A68 /* Teams_Stub_2003.json */; };
+		CF1C2A712AAD216E00862A68 /* Teams_Stub_2016.json in Resources */ = {isa = PBXBuildFile; fileRef = CF1C2A642AAD216E00862A68 /* Teams_Stub_2016.json */; };
+		CF1C2A802AAD23DB00862A68 /* Matches_Stub_2013.json in Resources */ = {isa = PBXBuildFile; fileRef = CF1C2A732AAD23DB00862A68 /* Matches_Stub_2013.json */; };
+		CF1C2A812AAD23DB00862A68 /* Matches_Stub_2002.json in Resources */ = {isa = PBXBuildFile; fileRef = CF1C2A742AAD23DB00862A68 /* Matches_Stub_2002.json */; };
+		CF1C2A822AAD23DB00862A68 /* Matches_Stub_2014.json in Resources */ = {isa = PBXBuildFile; fileRef = CF1C2A752AAD23DB00862A68 /* Matches_Stub_2014.json */; };
+		CF1C2A832AAD23DB00862A68 /* Matches_Stub_2018.json in Resources */ = {isa = PBXBuildFile; fileRef = CF1C2A762AAD23DB00862A68 /* Matches_Stub_2018.json */; };
+		CF1C2A842AAD23DB00862A68 /* Matches_Stub_2019.json in Resources */ = {isa = PBXBuildFile; fileRef = CF1C2A772AAD23DB00862A68 /* Matches_Stub_2019.json */; };
+		CF1C2A852AAD23DB00862A68 /* Matches_Stub_2015.json in Resources */ = {isa = PBXBuildFile; fileRef = CF1C2A782AAD23DB00862A68 /* Matches_Stub_2015.json */; };
+		CF1C2A862AAD23DB00862A68 /* Matches_Stub_2003.json in Resources */ = {isa = PBXBuildFile; fileRef = CF1C2A792AAD23DB00862A68 /* Matches_Stub_2003.json */; };
+		CF1C2A872AAD23DB00862A68 /* Matches_Stub_2016.json in Resources */ = {isa = PBXBuildFile; fileRef = CF1C2A7A2AAD23DB00862A68 /* Matches_Stub_2016.json */; };
+		CF1C2A882AAD23DB00862A68 /* Matches_Stub_2000.json in Resources */ = {isa = PBXBuildFile; fileRef = CF1C2A7B2AAD23DB00862A68 /* Matches_Stub_2000.json */; };
+		CF1C2A892AAD23DB00862A68 /* Matches_Stub_2021.json in Resources */ = {isa = PBXBuildFile; fileRef = CF1C2A7C2AAD23DB00862A68 /* Matches_Stub_2021.json */; };
+		CF1C2A8A2AAD23DB00862A68 /* Matches_Stub_2001.json in Resources */ = {isa = PBXBuildFile; fileRef = CF1C2A7D2AAD23DB00862A68 /* Matches_Stub_2001.json */; };
+		CF1C2A8B2AAD23DB00862A68 /* Matches_Stub_2152.json in Resources */ = {isa = PBXBuildFile; fileRef = CF1C2A7E2AAD23DB00862A68 /* Matches_Stub_2152.json */; };
+		CF1C2A8C2AAD23DB00862A68 /* Matches_Stub_2017.json in Resources */ = {isa = PBXBuildFile; fileRef = CF1C2A7F2AAD23DB00862A68 /* Matches_Stub_2017.json */; };
+		CF1C2A8E2AAD28A800862A68 /* Competitions_Stub.json in Resources */ = {isa = PBXBuildFile; fileRef = CF1C2A8D2AAD28A800862A68 /* Competitions_Stub.json */; };
 		CFEA23D12AAA1B73005271AB /* FootballLeaguesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEA23D02AAA1B73005271AB /* FootballLeaguesApp.swift */; };
 		CFEA23D52AAA1B74005271AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFEA23D42AAA1B74005271AB /* Assets.xcassets */; };
 		CFEA23D82AAA1B74005271AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFEA23D72AAA1B74005271AB /* Preview Assets.xcassets */; };
@@ -43,6 +70,33 @@
 		CF1C2A302AACFC1900862A68 /* TeamsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsRequest.swift; sourceTree = "<group>"; };
 		CF1C2A332AACFC5D00862A68 /* TeamsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsResponse.swift; sourceTree = "<group>"; };
 		CF1C2A372AACFC9B00862A68 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		CF1C2A3A2AAD1F8600862A68 /* Teams_Stub_2013.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Teams_Stub_2013.json; sourceTree = "<group>"; };
+		CF1C2A492AAD212500862A68 /* Teams_Stub_2021.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Teams_Stub_2021.json; sourceTree = "<group>"; };
+		CF1C2A582AAD216D00862A68 /* Teams_Stub_2014.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Teams_Stub_2014.json; sourceTree = "<group>"; };
+		CF1C2A592AAD216D00862A68 /* Teams_Stub_2019.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Teams_Stub_2019.json; sourceTree = "<group>"; };
+		CF1C2A5A2AAD216D00862A68 /* Teams_Stub_2152.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Teams_Stub_2152.json; sourceTree = "<group>"; };
+		CF1C2A5B2AAD216D00862A68 /* Teams_Stub_2002.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Teams_Stub_2002.json; sourceTree = "<group>"; };
+		CF1C2A5C2AAD216D00862A68 /* Teams_Stub_2015.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Teams_Stub_2015.json; sourceTree = "<group>"; };
+		CF1C2A5D2AAD216D00862A68 /* Teams_Stub_2000.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Teams_Stub_2000.json; sourceTree = "<group>"; };
+		CF1C2A5E2AAD216D00862A68 /* Teams_Stub_2017.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Teams_Stub_2017.json; sourceTree = "<group>"; };
+		CF1C2A5F2AAD216D00862A68 /* Teams_Stub_2001.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Teams_Stub_2001.json; sourceTree = "<group>"; };
+		CF1C2A602AAD216D00862A68 /* Teams_Stub_2018.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Teams_Stub_2018.json; sourceTree = "<group>"; };
+		CF1C2A612AAD216D00862A68 /* Teams_Stub_2003.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Teams_Stub_2003.json; sourceTree = "<group>"; };
+		CF1C2A642AAD216E00862A68 /* Teams_Stub_2016.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Teams_Stub_2016.json; sourceTree = "<group>"; };
+		CF1C2A732AAD23DB00862A68 /* Matches_Stub_2013.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Matches_Stub_2013.json; sourceTree = "<group>"; };
+		CF1C2A742AAD23DB00862A68 /* Matches_Stub_2002.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Matches_Stub_2002.json; sourceTree = "<group>"; };
+		CF1C2A752AAD23DB00862A68 /* Matches_Stub_2014.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Matches_Stub_2014.json; sourceTree = "<group>"; };
+		CF1C2A762AAD23DB00862A68 /* Matches_Stub_2018.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Matches_Stub_2018.json; sourceTree = "<group>"; };
+		CF1C2A772AAD23DB00862A68 /* Matches_Stub_2019.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Matches_Stub_2019.json; sourceTree = "<group>"; };
+		CF1C2A782AAD23DB00862A68 /* Matches_Stub_2015.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Matches_Stub_2015.json; sourceTree = "<group>"; };
+		CF1C2A792AAD23DB00862A68 /* Matches_Stub_2003.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Matches_Stub_2003.json; sourceTree = "<group>"; };
+		CF1C2A7A2AAD23DB00862A68 /* Matches_Stub_2016.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Matches_Stub_2016.json; sourceTree = "<group>"; };
+		CF1C2A7B2AAD23DB00862A68 /* Matches_Stub_2000.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Matches_Stub_2000.json; sourceTree = "<group>"; };
+		CF1C2A7C2AAD23DB00862A68 /* Matches_Stub_2021.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Matches_Stub_2021.json; sourceTree = "<group>"; };
+		CF1C2A7D2AAD23DB00862A68 /* Matches_Stub_2001.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Matches_Stub_2001.json; sourceTree = "<group>"; };
+		CF1C2A7E2AAD23DB00862A68 /* Matches_Stub_2152.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Matches_Stub_2152.json; sourceTree = "<group>"; };
+		CF1C2A7F2AAD23DB00862A68 /* Matches_Stub_2017.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Matches_Stub_2017.json; sourceTree = "<group>"; };
+		CF1C2A8D2AAD28A800862A68 /* Competitions_Stub.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Competitions_Stub.json; sourceTree = "<group>"; };
 		CFEA23CD2AAA1B73005271AB /* FootballLeagues.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootballLeagues.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFEA23D02AAA1B73005271AB /* FootballLeaguesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballLeaguesApp.swift; sourceTree = "<group>"; };
 		CFEA23D42AAA1B74005271AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -143,6 +197,64 @@
 			path = Team;
 			sourceTree = "<group>";
 		};
+		CF1C2A392AAD1F6600862A68 /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				CF1C2A3B2AAD206100862A68 /* Competitions */,
+				CF1C2A3C2AAD206D00862A68 /* Teams */,
+				CF1C2A722AAD23DB00862A68 /* Matches */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
+		CF1C2A3B2AAD206100862A68 /* Competitions */ = {
+			isa = PBXGroup;
+			children = (
+				CF1C2A8D2AAD28A800862A68 /* Competitions_Stub.json */,
+			);
+			path = Competitions;
+			sourceTree = "<group>";
+		};
+		CF1C2A3C2AAD206D00862A68 /* Teams */ = {
+			isa = PBXGroup;
+			children = (
+				CF1C2A3A2AAD1F8600862A68 /* Teams_Stub_2013.json */,
+				CF1C2A492AAD212500862A68 /* Teams_Stub_2021.json */,
+				CF1C2A642AAD216E00862A68 /* Teams_Stub_2016.json */,
+				CF1C2A602AAD216D00862A68 /* Teams_Stub_2018.json */,
+				CF1C2A5F2AAD216D00862A68 /* Teams_Stub_2001.json */,
+				CF1C2A5C2AAD216D00862A68 /* Teams_Stub_2015.json */,
+				CF1C2A5B2AAD216D00862A68 /* Teams_Stub_2002.json */,
+				CF1C2A592AAD216D00862A68 /* Teams_Stub_2019.json */,
+				CF1C2A612AAD216D00862A68 /* Teams_Stub_2003.json */,
+				CF1C2A5E2AAD216D00862A68 /* Teams_Stub_2017.json */,
+				CF1C2A5A2AAD216D00862A68 /* Teams_Stub_2152.json */,
+				CF1C2A582AAD216D00862A68 /* Teams_Stub_2014.json */,
+				CF1C2A5D2AAD216D00862A68 /* Teams_Stub_2000.json */,
+			);
+			path = Teams;
+			sourceTree = "<group>";
+		};
+		CF1C2A722AAD23DB00862A68 /* Matches */ = {
+			isa = PBXGroup;
+			children = (
+				CF1C2A732AAD23DB00862A68 /* Matches_Stub_2013.json */,
+				CF1C2A742AAD23DB00862A68 /* Matches_Stub_2002.json */,
+				CF1C2A752AAD23DB00862A68 /* Matches_Stub_2014.json */,
+				CF1C2A762AAD23DB00862A68 /* Matches_Stub_2018.json */,
+				CF1C2A772AAD23DB00862A68 /* Matches_Stub_2019.json */,
+				CF1C2A782AAD23DB00862A68 /* Matches_Stub_2015.json */,
+				CF1C2A792AAD23DB00862A68 /* Matches_Stub_2003.json */,
+				CF1C2A7A2AAD23DB00862A68 /* Matches_Stub_2016.json */,
+				CF1C2A7B2AAD23DB00862A68 /* Matches_Stub_2000.json */,
+				CF1C2A7C2AAD23DB00862A68 /* Matches_Stub_2021.json */,
+				CF1C2A7D2AAD23DB00862A68 /* Matches_Stub_2001.json */,
+				CF1C2A7E2AAD23DB00862A68 /* Matches_Stub_2152.json */,
+				CF1C2A7F2AAD23DB00862A68 /* Matches_Stub_2017.json */,
+			);
+			path = Matches;
+			sourceTree = "<group>";
+		};
 		CFEA23C42AAA1B73005271AB = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +275,7 @@
 			isa = PBXGroup;
 			children = (
 				CFEA23D02AAA1B73005271AB /* FootballLeaguesApp.swift */,
+				CF1C2A392AAD1F6600862A68 /* Stubs */,
 				CF1C2A1A2AACAA0700862A68 /* LeaguesView */,
 				CF1C2A152AABD72200862A68 /* Models */,
 				CF1C2A102AABCC5600862A68 /* Utils */,
@@ -240,7 +353,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFEA23D82AAA1B74005271AB /* Preview Assets.xcassets in Resources */,
+				CF1C2A552AAD212600862A68 /* Teams_Stub_2021.json in Resources */,
+				CF1C2A832AAD23DB00862A68 /* Matches_Stub_2018.json in Resources */,
+				CF1C2A842AAD23DB00862A68 /* Matches_Stub_2019.json in Resources */,
+				CF1C2A6D2AAD216E00862A68 /* Teams_Stub_2018.json in Resources */,
+				CF1C2A8B2AAD23DB00862A68 /* Matches_Stub_2152.json in Resources */,
+				CF1C2A8C2AAD23DB00862A68 /* Matches_Stub_2017.json in Resources */,
+				CF1C2A882AAD23DB00862A68 /* Matches_Stub_2000.json in Resources */,
+				CF1C2A662AAD216E00862A68 /* Teams_Stub_2019.json in Resources */,
+				CF1C2A8A2AAD23DB00862A68 /* Matches_Stub_2001.json in Resources */,
+				CF1C2A6C2AAD216E00862A68 /* Teams_Stub_2001.json in Resources */,
+				CF1C2A812AAD23DB00862A68 /* Matches_Stub_2002.json in Resources */,
+				CF1C2A682AAD216E00862A68 /* Teams_Stub_2002.json in Resources */,
+				CF1C2A8E2AAD28A800862A68 /* Competitions_Stub.json in Resources */,
+				CF1C2A672AAD216E00862A68 /* Teams_Stub_2152.json in Resources */,
+				CF1C2A652AAD216E00862A68 /* Teams_Stub_2014.json in Resources */,
+				CF1C2A802AAD23DB00862A68 /* Matches_Stub_2013.json in Resources */,
+				CF1C2A712AAD216E00862A68 /* Teams_Stub_2016.json in Resources */,
+				CF1C2A6B2AAD216E00862A68 /* Teams_Stub_2017.json in Resources */,
+				CF1C2A692AAD216E00862A68 /* Teams_Stub_2015.json in Resources */,
+				CF1C2A572AAD212A00862A68 /* Teams_Stub_2013.json in Resources */,
+				CF1C2A872AAD23DB00862A68 /* Matches_Stub_2016.json in Resources */,
+				CF1C2A892AAD23DB00862A68 /* Matches_Stub_2021.json in Resources */,
+				CF1C2A6E2AAD216E00862A68 /* Teams_Stub_2003.json in Resources */,
 				CFEA23D52AAA1B74005271AB /* Assets.xcassets in Resources */,
+				CF1C2A6A2AAD216E00862A68 /* Teams_Stub_2000.json in Resources */,
+				CF1C2A862AAD23DB00862A68 /* Matches_Stub_2003.json in Resources */,
+				CF1C2A822AAD23DB00862A68 /* Matches_Stub_2014.json in Resources */,
+				CF1C2A852AAD23DB00862A68 /* Matches_Stub_2015.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

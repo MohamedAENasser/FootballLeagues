@@ -1,0 +1,919 @@
+{
+
+    "count": 47,
+    "filters": {},
+    "competition": {
+        "id": 2152,
+        "area": {
+            "id": 2220,
+            "name": "South America"
+        },
+        "name": "Copa Libertadores",
+        "code": "CLI",
+        "plan": "TIER_ONE",
+        "lastUpdated": "2023-03-16T16:22:43Z"
+    },
+    "season": {
+        "id": 1545,
+        "startDate": "2023-02-08",
+        "endDate": "2023-11-11",
+        "currentMatchday": 9,
+        "winner": null
+    },
+    "teams": [
+        {
+            "id": 1765,
+            "area": {
+                "id": 2032,
+                "name": "Brazil"
+            },
+            "name": "Fluminense FC",
+            "shortName": "Fluminense",
+            "tla": "FLU",
+            "crestUrl": "https://crests.football-data.org/1765.svg",
+            "address": "Rua Álvaro Chaves 41, Bairro Laranjeiras Rio de Janeiro, RJ 22231-220",
+            "phone": "+55 (21) 25537240",
+            "website": "http://www.fluminense.com.br",
+            "email": "secretaria@fluminense.com.br",
+            "founded": 1902,
+            "clubColors": "Maroon / Green / White",
+            "venue": "Estadio Jornalista Mário Filho",
+            "lastUpdated": "2021-05-18T13:21:24Z"
+        },
+        {
+            "id": 1766,
+            "area": {
+                "id": 2032,
+                "name": "Brazil"
+            },
+            "name": "CA Mineiro",
+            "shortName": "Mineiro",
+            "tla": "CAM",
+            "crestUrl": "https://crests.football-data.org/1766.png",
+            "address": "Av. Olegário Maciel 1516, Lourdes Belo Horizonte, MG 30180-111",
+            "phone": "+55 (31) 32901313",
+            "website": "http://www.atletico.com.br",
+            "email": "fut.base@galo.com.br",
+            "founded": 1908,
+            "clubColors": "Black / White",
+            "venue": "Estádio Raimundo Sampaio",
+            "lastUpdated": "2022-12-28T10:32:33Z"
+        },
+        {
+            "id": 1768,
+            "area": {
+                "id": 2032,
+                "name": "Brazil"
+            },
+            "name": "CA Paranaense",
+            "shortName": "Paranaense",
+            "tla": "CAP",
+            "crestUrl": "https://crests.football-data.org/1768.png",
+            "address": "Estrada do Ganchinho 1451, Umbará Curitiba, PR 81930-160",
+            "phone": "+55 (41) 21055500",
+            "website": "http://www.atleticoparanaense.com",
+            "email": "redesocialcap@atleticopr.com.br",
+            "founded": 1924,
+            "clubColors": "Black / White / Red",
+            "venue": "Estádio Joaquim Américo Guimarães",
+            "lastUpdated": "2022-04-06T13:14:06Z"
+        },
+        {
+            "id": 1769,
+            "area": {
+                "id": 2032,
+                "name": "Brazil"
+            },
+            "name": "SE Palmeiras",
+            "shortName": "Palmeiras",
+            "tla": "PAL",
+            "crestUrl": "https://crests.football-data.org/1769.png",
+            "address": "Rua Palestra Italia nº 214, Perdizes São Paulo, SP 05005-030",
+            "phone": "+55 (11) 38746500",
+            "website": "http://www.palmeiras.com.br",
+            "email": null,
+            "founded": 1914,
+            "clubColors": "Green / White",
+            "venue": "Allianz Parque",
+            "lastUpdated": "2022-04-06T13:14:55Z"
+        },
+        {
+            "id": 1779,
+            "area": {
+                "id": 2032,
+                "name": "Brazil"
+            },
+            "name": "SC Corinthians Paulista",
+            "shortName": "Corinthians",
+            "tla": "COR",
+            "crestUrl": "https://crests.football-data.org/1779.svg",
+            "address": "Rua São Jorge 777, Tatuapé São Paulo, SP 03087-000",
+            "phone": "+55 (11) 61953000",
+            "website": "http://www.corinthians.com.br",
+            "email": "contato@corinthiansfutebol.com.br",
+            "founded": 1910,
+            "clubColors": "Black / White",
+            "venue": "Neo Química Arena",
+            "lastUpdated": "2021-03-21T09:50:23Z"
+        },
+        {
+            "id": 1783,
+            "area": {
+                "id": 2032,
+                "name": "Brazil"
+            },
+            "name": "CR Flamengo",
+            "shortName": "Flamengo",
+            "tla": "FLA",
+            "crestUrl": "https://crests.football-data.org/1783.png",
+            "address": "null Rio de Janeiro, RJ null",
+            "phone": null,
+            "website": "https://www.flamengo.com.br/pagina-inicial-basquete",
+            "email": null,
+            "founded": 1919,
+            "clubColors": "Red / Black / White",
+            "venue": "Estadio Jornalista Mário Filho",
+            "lastUpdated": "2022-04-06T13:13:43Z"
+        },
+        {
+            "id": 2058,
+            "area": {
+                "id": 2011,
+                "name": "Argentina"
+            },
+            "name": "AA Argentinos Juniors",
+            "shortName": "Argentinos Jrs",
+            "tla": "ARJ",
+            "crestUrl": "https://crests.football-data.org/2058.png",
+            "address": "Punta Arenas 1271, La Paternal Buenos Aires, Buenos Aires 1427",
+            "phone": "+54 (11) 45516887",
+            "website": "http://www.argentinosjuniors.com.ar",
+            "email": "info@argentinosjuniors.com.ar",
+            "founded": 1904,
+            "clubColors": "Red / White",
+            "venue": "Estadio Diego Armando Maradona",
+            "lastUpdated": "2022-12-28T10:22:22Z"
+        },
+        {
+            "id": 2061,
+            "area": {
+                "id": 2011,
+                "name": "Argentina"
+            },
+            "name": "CA Boca Juniors",
+            "shortName": "Boca Juniors",
+            "tla": "BOC",
+            "crestUrl": "https://crests.football-data.org/2061.png",
+            "address": "Brandsen 805, La Boca Buenos Aires, Buenos Aires 1161",
+            "phone": "+54 (11) 43094700",
+            "website": "http://www.bocajuniors.com.ar",
+            "email": "cas@bocajuniors.com.ar",
+            "founded": 1905,
+            "clubColors": "Dark Blue / Yellow",
+            "venue": "Estadio Alberto José Armando",
+            "lastUpdated": "2022-04-06T13:12:25Z"
+        },
+        {
+            "id": 2064,
+            "area": {
+                "id": 2011,
+                "name": "Argentina"
+            },
+            "name": "CA Huracán",
+            "shortName": "Huracán BA",
+            "tla": "HUR",
+            "crestUrl": "https://crests.football-data.org/2064.png",
+            "address": "Avenida Caseros 3159, Parque Patricios Buenos Aires, Buenos Aires 1623",
+            "phone": "+54 (11) 49119313",
+            "website": "http://www.cahuracan.com",
+            "email": null,
+            "founded": 1908,
+            "clubColors": "White / Red",
+            "venue": "Estadio Tomás Adolfo Ducó",
+            "lastUpdated": "2022-12-28T10:22:17Z"
+        },
+        {
+            "id": 2068,
+            "area": {
+                "id": 2011,
+                "name": "Argentina"
+            },
+            "name": "CA Patronato",
+            "shortName": "Patronato",
+            "tla": "PAT",
+            "crestUrl": "https://crests.football-data.org/2068.png",
+            "address": "Padre Bartolomé Grella 874 Paraná, Entre Ríos 3100",
+            "phone": "+54 (34) 34243766",
+            "website": "http://www.cpatronato.com.ar",
+            "email": "prensaclubpatronato@hotmail.com",
+            "founded": 1914,
+            "clubColors": "Red / Black",
+            "venue": "Estadio Presbítero Bartolomé Grella",
+            "lastUpdated": "2023-03-29T10:55:01Z"
+        },
+        {
+            "id": 3984,
+            "area": {
+                "id": 2032,
+                "name": "Brazil"
+            },
+            "name": "Fortaleza EC",
+            "shortName": "Fortaleza",
+            "tla": "FEC",
+            "crestUrl": "https://crests.football-data.org/3984.png",
+            "address": "Avenida Senador Fernandes Távora 200, Pici Fortaleza, CE 60510-290",
+            "phone": "+55 (85) 34962846",
+            "website": "http://www.fortalezaec.net",
+            "email": "contato@fortalezaec.net",
+            "founded": 1918,
+            "clubColors": "Red / Blue / White",
+            "venue": "Estádio Castelão",
+            "lastUpdated": "2022-04-06T13:16:50Z"
+        },
+        {
+            "id": 4261,
+            "area": {
+                "id": 2028,
+                "name": "Bolivia"
+            },
+            "name": "Club Bolívar",
+            "shortName": "Club Bolívar",
+            "tla": "BOL",
+            "crestUrl": "https://crests.football-data.org/4261.png",
+            "address": "Calle 17, Obrajes La Paz null",
+            "phone": "+591 (2) 2786665",
+            "website": "http://www.clubbolivar.com",
+            "email": "bolivar@clubbolivar.com",
+            "founded": 1925,
+            "clubColors": "Light Blue",
+            "venue": "Estadio Hernando Siles",
+            "lastUpdated": "2022-02-09T13:30:27Z"
+        },
+        {
+            "id": 4265,
+            "area": {
+                "id": 2028,
+                "name": "Bolivia"
+            },
+            "name": "Club Nacional Potosí",
+            "shortName": "Nac. Potosí",
+            "tla": "NAP",
+            "crestUrl": "https://crests.football-data.org/4265.png",
+            "address": "null San Luis Potosí null",
+            "phone": null,
+            "website": "http://www.clubnacionalpotosi.com",
+            "email": null,
+            "founded": 1942,
+            "clubColors": "White / Red / Black",
+            "venue": "Estadio Victor Agustín Ugarte",
+            "lastUpdated": "2023-02-07T10:03:49Z"
+        },
+        {
+            "id": 4267,
+            "area": {
+                "id": 2028,
+                "name": "Bolivia"
+            },
+            "name": "Club The Strongest",
+            "shortName": "The Strongest",
+            "tla": "STR",
+            "crestUrl": "https://crests.football-data.org/4267.png",
+            "address": "Calle Colón Nº 512 La Paz null",
+            "phone": "+591 (2) 2141295",
+            "website": "http://www.club-thestrongest.com",
+            "email": "webtigre@gmail.com",
+            "founded": 1908,
+            "clubColors": "Black / Yellow",
+            "venue": null,
+            "lastUpdated": "2022-02-09T13:30:46Z"
+        },
+        {
+            "id": 4410,
+            "area": {
+                "id": 2045,
+                "name": "Chile"
+            },
+            "name": "CSD Colo-Colo",
+            "shortName": "Colo-Colo",
+            "tla": "COL",
+            "crestUrl": "https://crests.football-data.org/4410.png",
+            "address": "null Santiago null",
+            "phone": null,
+            "website": "http://www.colocolo.cl",
+            "email": "club@colocolo.cl",
+            "founded": 1925,
+            "clubColors": "White / Black",
+            "venue": "Estadio Monumental David Arellano",
+            "lastUpdated": "2022-12-28T10:17:57Z"
+        },
+        {
+            "id": 4438,
+            "area": {
+                "id": 2049,
+                "name": "Colombia"
+            },
+            "name": "CDC Atlético Nacional",
+            "shortName": "CDC Atlético",
+            "tla": "NAC",
+            "crestUrl": "https://crests.football-data.org/4438.png",
+            "address": "Calle 62 No. 44 - 103 Itagüí, Antioquia null",
+            "phone": "+57 (4) 3702700",
+            "website": "http://www.atlnacional.com.co",
+            "email": "presidencia@atlnacional.com.co",
+            "founded": 1947,
+            "clubColors": "Green / White",
+            "venue": "Estadio Atanasio Girardot",
+            "lastUpdated": "2022-02-09T13:30:58Z"
+        },
+        {
+            "id": 4444,
+            "area": {
+                "id": 2049,
+                "name": "Colombia"
+            },
+            "name": "Millonarios FC",
+            "shortName": "Millonarios",
+            "tla": "MIL",
+            "crestUrl": "https://crests.football-data.org/4444.png",
+            "address": "Calle 104 No. 13a - 32 Bogotá null",
+            "phone": "+57 (1) 7433941",
+            "website": "http://www.millonarios.com.co",
+            "email": "info@millonarios.com.co",
+            "founded": 1946,
+            "clubColors": "Blue / White",
+            "venue": "Estadio Nemesio Camacho El Campín",
+            "lastUpdated": "2023-02-07T10:03:30Z"
+        },
+        {
+            "id": 4465,
+            "area": {
+                "id": 2045,
+                "name": "Chile"
+            },
+            "name": "CDP Curicó Unido",
+            "shortName": "Curicó",
+            "tla": "CUR",
+            "crestUrl": "https://crests.football-data.org/4465.png",
+            "address": "Avenida Peňa 819 Curicó null",
+            "phone": "+56 (75) 2576413",
+            "website": "http://www.cdpcuricounido.cl",
+            "email": "contacto@cdpcuricounido.cl",
+            "founded": 1973,
+            "clubColors": "Red / White / Black",
+            "venue": "Estadio Bicentenario La Granja",
+            "lastUpdated": "2022-12-28T10:17:34Z"
+        },
+        {
+            "id": 4520,
+            "area": {
+                "id": 2069,
+                "name": "Ecuador"
+            },
+            "name": "Barcelona SC",
+            "shortName": "Barcelona SC",
+            "tla": "BAR",
+            "crestUrl": "https://crests.football-data.org/4520.png",
+            "address": "Ciudadela Bellavista Guayaquil null",
+            "phone": "+593 (4) 2200550",
+            "website": "http://www.barcelonasc.com.ec",
+            "email": "prensa@barcelonasc.com.ec",
+            "founded": 1925,
+            "clubColors": "Yellow / Black",
+            "venue": "Estadio Monumental Isidro Romero Carbo",
+            "lastUpdated": "2022-02-09T13:31:13Z"
+        },
+        {
+            "id": 4524,
+            "area": {
+                "id": 2069,
+                "name": "Ecuador"
+            },
+            "name": "CSCyD El Nacional",
+            "shortName": "El Nacional",
+            "tla": "ELN",
+            "crestUrl": "https://crests.football-data.org/4524.png",
+            "address": "Yasuní e Isla San Cristóbal, Ciudadela Jipijapa Quito null",
+            "phone": "+593 (2) 2443387",
+            "website": "http://www.elnacional.ec",
+            "email": "elnacional@uio.satnet.net",
+            "founded": 1964,
+            "clubColors": "Red / Yellow / Blue",
+            "venue": "Estadio Olímpico Atahualpa",
+            "lastUpdated": "2023-02-07T10:03:08Z"
+        },
+        {
+            "id": 4529,
+            "area": {
+                "id": 2069,
+                "name": "Ecuador"
+            },
+            "name": "SD Aucas",
+            "shortName": "SD Aucas",
+            "tla": "SDA",
+            "crestUrl": "https://crests.football-data.org/4529.png",
+            "address": "Villalengua e Iñaquito Quito 207637",
+            "phone": "+593 (2) 2730212",
+            "website": "http://www.aucas.com.ec",
+            "email": "prensa@aucas.com.ec",
+            "founded": 1945,
+            "clubColors": "Yellow / Red",
+            "venue": "Estadio Gonzalo Pozo Ripalda",
+            "lastUpdated": "2023-03-29T10:54:55Z"
+        },
+        {
+            "id": 5166,
+            "area": {
+                "id": 2262,
+                "name": "Venezuela"
+            },
+            "name": "Carabobo FC",
+            "shortName": "Carabobo",
+            "tla": "CAR",
+            "crestUrl": "https://crests.football-data.org/5166.png",
+            "address": "Av. Bolivar Norte Valencia null",
+            "phone": "+58 (241) 8211645",
+            "website": "http://www.carabobofc.com",
+            "email": "prensa@carabobofc.com",
+            "founded": 1997,
+            "clubColors": "Maroon / White",
+            "venue": "Estadio Polideportivo Misael Delgado",
+            "lastUpdated": "2023-02-07T10:02:47Z"
+        },
+        {
+            "id": 5174,
+            "area": {
+                "id": 2262,
+                "name": "Venezuela"
+            },
+            "name": "Metropolitanos FC",
+            "shortName": "Metropolitanos",
+            "tla": "MET",
+            "crestUrl": "https://crests.football-data.org/5174.png",
+            "address": "null Caracas null",
+            "phone": "+58 (0212) 9938093",
+            "website": "http://www.metropolitanosfc.com",
+            "email": "metropolitanoscaracas@gmail.com",
+            "founded": 2012,
+            "clubColors": "Violet / White",
+            "venue": "Estadio Olímpico",
+            "lastUpdated": "2023-03-29T10:54:42Z"
+        },
+        {
+            "id": 5175,
+            "area": {
+                "id": 2262,
+                "name": "Venezuela"
+            },
+            "name": "Monagas SC",
+            "shortName": "Monagas SC",
+            "tla": "MSC",
+            "crestUrl": "https://crests.football-data.org/5175.png",
+            "address": "Av. Rómulo Gallegos Colegio de Ingenieros Maturín null",
+            "phone": "+58 (414) 7635809",
+            "website": null,
+            "email": "prensamonagassc@gmail.com",
+            "founded": 1987,
+            "clubColors": "Blue / Maroon",
+            "venue": "Estadio Monumental de Maturín",
+            "lastUpdated": "2022-02-21T18:49:53Z"
+        },
+        {
+            "id": 5178,
+            "area": {
+                "id": 2262,
+                "name": "Venezuela"
+            },
+            "name": "Zamora FC",
+            "shortName": "Zamora",
+            "tla": "ZAM",
+            "crestUrl": "https://crests.football-data.org/5178.png",
+            "address": "null Barinas null",
+            "phone": "+58 (273) 5321628",
+            "website": "http://zamorafutbolclub.org",
+            "email": null,
+            "founded": 1977,
+            "clubColors": "Black / White",
+            "venue": "Estadio Rafael Agustín Tovar",
+            "lastUpdated": "2023-02-07T10:02:26Z"
+        },
+        {
+            "id": 5181,
+            "area": {
+                "id": 2257,
+                "name": "Uruguay"
+            },
+            "name": "CA Boston River",
+            "shortName": "Boston River",
+            "tla": "BOR",
+            "crestUrl": "https://crests.football-data.org/5181.png",
+            "address": "Saladero Fariña 3388 Montevideo null",
+            "phone": "+598 (2) 2165863",
+            "website": "http://www.bostonriver.com.uy",
+            "email": "caboston@adinet.com.uy",
+            "founded": 1939,
+            "clubColors": "Green / Red",
+            "venue": "Estadio Campeones Olímpicos",
+            "lastUpdated": "2023-02-07T10:02:09Z"
+        },
+        {
+            "id": 5188,
+            "area": {
+                "id": 2183,
+                "name": "Paraguay"
+            },
+            "name": "Club Nacional",
+            "shortName": "Club Nacional",
+            "tla": "NAC",
+            "crestUrl": "https://crests.football-data.org/5188.png",
+            "address": "9na. entre Caballero y Paraguarí­ Asunción null",
+            "phone": null,
+            "website": "http://www.clubnacional.com.py",
+            "email": null,
+            "founded": 1904,
+            "clubColors": "Red / White / Black",
+            "venue": "Estadio Arsenio Erico",
+            "lastUpdated": "2023-02-07T10:01:48Z"
+        },
+        {
+            "id": 5347,
+            "area": {
+                "id": 2184,
+                "name": "Peru"
+            },
+            "name": "CS Cristal",
+            "shortName": "Cristal",
+            "tla": "SPO",
+            "crestUrl": "https://crests.football-data.org/5347.png",
+            "address": "Calle 18 s/n La Florida, Rímac Lima null",
+            "phone": "+51 (1) 4812183",
+            "website": "http://www.clubsportingcristal.pe",
+            "email": "informes@clubsportingcristal.pe",
+            "founded": 1926,
+            "clubColors": "Sky Blue / White",
+            "venue": "Estadio Alberto Gallardo",
+            "lastUpdated": "2022-04-06T13:14:38Z"
+        },
+        {
+            "id": 5350,
+            "area": {
+                "id": 2184,
+                "name": "Peru"
+            },
+            "name": "CSD Sport Huancayo",
+            "shortName": "Sport Huancayo",
+            "tla": "HUA",
+            "crestUrl": "https://crests.football-data.org/5350.png",
+            "address": "null Huancayo null",
+            "phone": null,
+            "website": null,
+            "email": null,
+            "founded": 2007,
+            "clubColors": "Red / Yellow",
+            "venue": "Estadio Huancayo",
+            "lastUpdated": "2023-02-07T11:17:17Z"
+        },
+        {
+            "id": 5680,
+            "area": {
+                "id": 2184,
+                "name": "Peru"
+            },
+            "name": "Club Alianza Lima",
+            "shortName": "Alianza Lima",
+            "tla": "ALI",
+            "crestUrl": "https://crests.football-data.org/5680.png",
+            "address": "null Lima null",
+            "phone": null,
+            "website": "http://www.clubalianzalima.com",
+            "email": "directorio@alianzalima.org.pe",
+            "founded": 1901,
+            "clubColors": null,
+            "venue": "Estadio Alejandro Villanueva",
+            "lastUpdated": "2022-04-10T10:56:15Z"
+        },
+        {
+            "id": 5682,
+            "area": {
+                "id": 2184,
+                "name": "Peru"
+            },
+            "name": "FBC Melgar",
+            "shortName": "FBC Melgar",
+            "tla": null,
+            "crestUrl": "https://crests.football-data.org/5682.png",
+            "address": "Calle Consuelo N° 408 Cercado null",
+            "phone": "+51 (54) 233091",
+            "website": "http://www.fbcmelgar.com.pe",
+            "email": "secretaria@fbcmelgar.com.pe",
+            "founded": 1915,
+            "clubColors": "Red / Black",
+            "venue": "Estadio de la Universidad Nacional San Agustín",
+            "lastUpdated": "2022-07-20T00:12:32Z"
+        },
+        {
+            "id": 6667,
+            "area": {
+                "id": 2011,
+                "name": "Argentina"
+            },
+            "name": "CA River Plate",
+            "shortName": "River Plate",
+            "tla": "RIV",
+            "crestUrl": "https://crests.football-data.org/6667.png",
+            "address": "Avenida Pres. Figueroa Alcorta 7597 Buenos Aires, Buenos Aires 1424",
+            "phone": "+54 (11) 47891200",
+            "website": "http://www.cariverplate.com.ar",
+            "email": "club@cariverplate.com.ar",
+            "founded": 1901,
+            "clubColors": "Red / White",
+            "venue": "Estadio Monumental Antonio Vespucio Liberti",
+            "lastUpdated": "2022-04-06T13:16:13Z"
+        },
+        {
+            "id": 6684,
+            "area": {
+                "id": 2032,
+                "name": "Brazil"
+            },
+            "name": "SC Internacional",
+            "shortName": "Internacional",
+            "tla": "SCI",
+            "crestUrl": "https://crests.football-data.org/6684.png",
+            "address": "Avenida Padre Cacique 891, Bairro Menino Deus Porto Alegre, RS 90810-240",
+            "phone": "+55 (51) 32304600",
+            "website": "http://www.internacional.com.br",
+            "email": "ouvidoria@internacional.com.br",
+            "founded": 1909,
+            "clubColors": "Red / White",
+            "venue": "Estádio José Pinheiro Borba",
+            "lastUpdated": "2023-02-18T08:43:22Z"
+        },
+        {
+            "id": 6803,
+            "area": {
+                "id": 2011,
+                "name": "Argentina"
+            },
+            "name": "Racing Club",
+            "shortName": "Racing Club",
+            "tla": "RAC",
+            "crestUrl": "https://crests.football-data.org/6803.png",
+            "address": "Avenida Bartolomé Mitre 934 Avellaneda, Buenos Aires 1870",
+            "phone": "+54 (11) 42291300",
+            "website": "http://www.racingclub.com.ar",
+            "email": "sedeavellaneda@racingclub.com",
+            "founded": 1903,
+            "clubColors": "Blue / White",
+            "venue": "Estadio Presidente Juan Domingo Perón",
+            "lastUpdated": "2022-12-28T10:21:55Z"
+        },
+        {
+            "id": 6989,
+            "area": {
+                "id": 2069,
+                "name": "Ecuador"
+            },
+            "name": "CAR Independiente del Valle",
+            "shortName": "Independiente",
+            "tla": "IDL",
+            "crestUrl": "https://crests.football-data.org/6989.png",
+            "address": "Calle F S/N y Calle I - La Balvina Sangolqui null",
+            "phone": "+593 (2) 3834962",
+            "website": "http://independientedelvalle.com",
+            "email": "info@independientedelvalle.com",
+            "founded": 1958,
+            "clubColors": "Black / Blue",
+            "venue": "Estadio Olímpico Atahualpa",
+            "lastUpdated": "2022-04-06T08:59:57Z"
+        },
+        {
+            "id": 7055,
+            "area": {
+                "id": 2257,
+                "name": "Uruguay"
+            },
+            "name": "Club Nacional de Football",
+            "shortName": "Club Nacional",
+            "tla": "NAC",
+            "crestUrl": "https://crests.football-data.org/7055.png",
+            "address": "Avenida 8 de Octubre 2847 Montevideo 11200",
+            "phone": "+598 (02) 4873636",
+            "website": "http://www.nacional.com.uy",
+            "email": "nacional@nacional.com.uy",
+            "founded": 1899,
+            "clubColors": "White / Blue / Red",
+            "venue": "Estadio Gran Parque Central",
+            "lastUpdated": "2022-04-06T08:37:37Z"
+        },
+        {
+            "id": 7118,
+            "area": {
+                "id": 2257,
+                "name": "Uruguay"
+            },
+            "name": "Liverpool FC",
+            "shortName": "Liverpool",
+            "tla": "LIV",
+            "crestUrl": "https://crests.football-data.org/7118.png",
+            "address": "Avenida Agraciada 4186 Montevideo 11200",
+            "phone": "+598 (02) 3094357",
+            "website": "http://www.liverpoolfc.com.uy",
+            "email": "info@liverpoolfc.com.uy",
+            "founded": 1915,
+            "clubColors": "Dark Blue / Black",
+            "venue": "Estadio Belvedere",
+            "lastUpdated": "2023-03-29T10:54:48Z"
+        },
+        {
+            "id": 7119,
+            "area": {
+                "id": 2049,
+                "name": "Colombia"
+            },
+            "name": "CD Independiente Medellín",
+            "shortName": "Independiente",
+            "tla": "DIM",
+            "crestUrl": "https://crests.football-data.org/7119.png",
+            "address": "Carrera 43 A #7-50A Torre Empresarial Dann P.11 Medellín null",
+            "phone": "+57 (4) 4446789",
+            "website": "http://www.dimoficial.com",
+            "email": "info@independientemedellin.com",
+            "founded": 1913,
+            "clubColors": "Red / Blue",
+            "venue": "Estadio Atanasio Girardot",
+            "lastUpdated": "2022-03-28T18:54:55Z"
+        },
+        {
+            "id": 7865,
+            "area": {
+                "id": 2028,
+                "name": "Bolivia"
+            },
+            "name": "Club Always Ready",
+            "shortName": "Always Ready",
+            "tla": "CAR",
+            "crestUrl": "https://crests.football-data.org/7865.png",
+            "address": "null La Paz null",
+            "phone": null,
+            "website": null,
+            "email": null,
+            "founded": 1933,
+            "clubColors": "Red / White",
+            "venue": "Estadio Municipal El Alto",
+            "lastUpdated": "2023-02-07T09:57:53Z"
+        },
+        {
+            "id": 8602,
+            "area": {
+                "id": 2049,
+                "name": "Colombia"
+            },
+            "name": "Deportivo Pereira",
+            "shortName": "Dep. Pereira",
+            "tla": "PER",
+            "crestUrl": "https://crests.football-data.org/8602.png",
+            "address": "Avenida 30 de Agosto No. 52 – 476 Pereira null",
+            "phone": "+57 326 6090",
+            "website": "http://www.deportivopereira.com.co",
+            "email": "deportivopereira@yahoo.com",
+            "founded": 1944,
+            "clubColors": "Yellow / Red",
+            "venue": "Estadio Hernán Ramírez Villegas",
+            "lastUpdated": "2022-03-28T19:46:52Z"
+        },
+        {
+            "id": 8777,
+            "area": {
+                "id": 2257,
+                "name": "Uruguay"
+            },
+            "name": "CD Maldonado",
+            "shortName": "CD Maldonado",
+            "tla": "CDM",
+            "crestUrl": "https://crests.football-data.org/8777.png",
+            "address": "Avda. España 693 esquina Ginés Cairo Medina CP Maldonado 20000",
+            "phone": "+598 4222 3422",
+            "website": "http://www.deportivomaldonado.com",
+            "email": "secretaria@deportivomaldonado.com",
+            "founded": 1928,
+            "clubColors": "Red / Green",
+            "venue": "Estadio Domingo Burgueño Miguel",
+            "lastUpdated": "2023-02-07T10:01:07Z"
+        },
+        {
+            "id": 9362,
+            "area": {
+                "id": 2045,
+                "name": "Chile"
+            },
+            "name": "CD Nublense",
+            "shortName": "Nublense",
+            "tla": "CDN",
+            "crestUrl": "https://crests.football-data.org/9362.png",
+            "address": "null null null",
+            "phone": null,
+            "website": null,
+            "email": null,
+            "founded": null,
+            "clubColors": null,
+            "venue": null,
+            "lastUpdated": "2022-04-07T11:58:36Z"
+        },
+        {
+            "id": 9372,
+            "area": {
+                "id": 2183,
+                "name": "Paraguay"
+            },
+            "name": "Olimpia Asuncion",
+            "shortName": "Olimpia",
+            "tla": "OLI",
+            "crestUrl": "https://crests.football-data.org/9372.png",
+            "address": "null null null",
+            "phone": null,
+            "website": null,
+            "email": null,
+            "founded": null,
+            "clubColors": null,
+            "venue": null,
+            "lastUpdated": "2022-02-09T13:32:01Z"
+        },
+        {
+            "id": 9373,
+            "area": {
+                "id": 2183,
+                "name": "Paraguay"
+            },
+            "name": "Club Cerro Porteño",
+            "shortName": "Cerro Porteño",
+            "tla": "CCP",
+            "crestUrl": "https://crests.football-data.org/9373.png",
+            "address": "null null null",
+            "phone": null,
+            "website": null,
+            "email": null,
+            "founded": null,
+            "clubColors": null,
+            "venue": null,
+            "lastUpdated": "2022-04-06T13:16:33Z"
+        },
+        {
+            "id": 9377,
+            "area": {
+                "id": 2069,
+                "name": "Ecuador"
+            },
+            "name": "Universidad Catolica",
+            "shortName": "Universidad Catolica",
+            "tla": "UNI",
+            "crestUrl": "https://crests.football-data.org/9377.png",
+            "address": "null null null",
+            "phone": null,
+            "website": null,
+            "email": null,
+            "founded": null,
+            "clubColors": null,
+            "venue": null,
+            "lastUpdated": "2022-02-09T13:31:28Z"
+        },
+        {
+            "id": 9379,
+            "area": {
+                "id": 2183,
+                "name": "Paraguay"
+            },
+            "name": "Club Libertad Asuncion",
+            "shortName": "Libertad",
+            "tla": "CLA",
+            "crestUrl": "https://crests.football-data.org/9379.png",
+            "address": "null null null",
+            "phone": null,
+            "website": null,
+            "email": null,
+            "founded": null,
+            "clubColors": null,
+            "venue": null,
+            "lastUpdated": "2022-04-06T13:10:32Z"
+        },
+        {
+            "id": 10137,
+            "area": {
+                "id": 2045,
+                "name": "Chile"
+            },
+            "name": "Magallanes",
+            "shortName": "Magallanes",
+            "tla": "MAG",
+            "crestUrl": "https://crests.football-data.org/10137.png",
+            "address": "null null null",
+            "phone": null,
+            "website": null,
+            "email": null,
+            "founded": null,
+            "clubColors": null,
+            "venue": null,
+            "lastUpdated": "2023-07-31T12:04:28Z"
+        }
+    ]
+
+}

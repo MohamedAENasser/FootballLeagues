@@ -18,4 +18,12 @@ struct TeamsRequest: DataRequestProtocol {
     var method: HTTPMethod {
         .get
     }
+
+    var sampleData: TeamsResponse? {
+        do {
+            return try getModelFromFile(with: "Teams_Stub_\(competitionID)")
+        } catch {
+            return nil
+        }
+    }
 }

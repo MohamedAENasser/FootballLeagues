@@ -1,0 +1,25 @@
+{
+
+    "count": 0,
+    "filters": {},
+    "competition": {
+        "id": 2018,
+        "area": {
+            "id": 2077,
+            "name": "Europe"
+        },
+        "name": "European Championship",
+        "code": "EC",
+        "plan": "TIER_ONE",
+        "lastUpdated": "2021-07-20T18:34:04Z"
+    },
+    "season": {
+        "id": 1537,
+        "startDate": "2024-06-14",
+        "endDate": "2024-07-14",
+        "currentMatchday": 1,
+        "winner": null
+    },
+    "teams": []
+
+}

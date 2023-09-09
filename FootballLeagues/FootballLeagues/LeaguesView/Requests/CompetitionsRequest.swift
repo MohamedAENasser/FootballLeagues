@@ -17,4 +17,12 @@ struct CompetitionsRequest: DataRequestProtocol {
     var method: HTTPMethod {
         .get
     }
+
+    var sampleData: CompetitionsResponse? {
+        do {
+            return try getModelFromFile(with: "Competitions_Stub")
+        } catch {
+            return nil
+        }
+    }
 }

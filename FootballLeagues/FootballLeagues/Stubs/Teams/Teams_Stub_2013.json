@@ -1,0 +1,404 @@
+{
+    "count": 20,
+    "filters": {},
+    "competition": {
+        "id": 2013,
+        "area": {
+            "id": 2032,
+            "name": "Brazil"
+        },
+        "name": "Campeonato Brasileiro Série A",
+        "code": "BSA",
+        "plan": "TIER_ONE",
+        "lastUpdated": "2021-07-20T18:42:17Z"
+    },
+    "season": {
+        "id": 1557,
+        "startDate": "2023-04-15",
+        "endDate": "2023-12-03",
+        "currentMatchday": 23,
+        "winner": null
+    },
+    "teams": [
+        {
+            "id": 1765,
+            "area": {
+                "id": 2032,
+                "name": "Brazil"
+            },
+            "name": "Fluminense FC",
+            "shortName": "Fluminense",
+            "tla": "FLU",
+            "crestUrl": "https://crests.football-data.org/1765.svg",
+            "address": "Rua Álvaro Chaves 41, Bairro Laranjeiras Rio de Janeiro, RJ 22231-220",
+            "phone": "+55 (21) 25537240",
+            "website": "http://www.fluminense.com.br",
+            "email": "secretaria@fluminense.com.br",
+            "founded": 1902,
+            "clubColors": "Maroon / Green / White",
+            "venue": "Estadio Jornalista Mário Filho",
+            "lastUpdated": "2021-05-18T13:21:24Z"
+        },
+        {
+            "id": 1766,
+            "area": {
+                "id": 2032,
+                "name": "Brazil"
+            },
+            "name": "CA Mineiro",
+            "shortName": "Mineiro",
+            "tla": "CAM",
+            "crestUrl": "https://crests.football-data.org/1766.png",
+            "address": "Av. Olegário Maciel 1516, Lourdes Belo Horizonte, MG 30180-111",
+            "phone": "+55 (31) 32901313",
+            "website": "http://www.atletico.com.br",
+            "email": "fut.base@galo.com.br",
+            "founded": 1908,
+            "clubColors": "Black / White",
+            "venue": "Estádio Raimundo Sampaio",
+            "lastUpdated": "2022-12-28T10:32:33Z"
+        },
+        {
+            "id": 1767,
+            "area": {
+                "id": 2032,
+                "name": "Brazil"
+            },
+            "name": "Grêmio FBPA",
+            "shortName": "Grêmio",
+            "tla": "FBP",
+            "crestUrl": "https://crests.football-data.org/1767.png",
+            "address": "Avenida Padre Leopoldo Bretano, 110, Humaitá Porto Alegre, RS 90250-590",
+            "phone": null,
+            "website": "http://www.gremio.net",
+            "email": null,
+            "founded": 1903,
+            "clubColors": "Blue / Black / White",
+            "venue": "Arena do Grêmio",
+            "lastUpdated": "2023-02-18T08:42:52Z"
+        },
+        {
+            "id": 1768,
+            "area": {
+                "id": 2032,
+                "name": "Brazil"
+            },
+            "name": "CA Paranaense",
+            "shortName": "Paranaense",
+            "tla": "CAP",
+            "crestUrl": "https://crests.football-data.org/1768.png",
+            "address": "Estrada do Ganchinho 1451, Umbará Curitiba, PR 81930-160",
+            "phone": "+55 (41) 21055500",
+            "website": "http://www.atleticoparanaense.com",
+            "email": "redesocialcap@atleticopr.com.br",
+            "founded": 1924,
+            "clubColors": "Black / White / Red",
+            "venue": "Estádio Joaquim Américo Guimarães",
+            "lastUpdated": "2022-04-06T13:14:06Z"
+        },
+        {
+            "id": 1769,
+            "area": {
+                "id": 2032,
+                "name": "Brazil"
+            },
+            "name": "SE Palmeiras",
+            "shortName": "Palmeiras",
+            "tla": "PAL",
+            "crestUrl": "https://crests.football-data.org/1769.png",
+            "address": "Rua Palestra Italia nº 214, Perdizes São Paulo, SP 05005-030",
+            "phone": "+55 (11) 38746500",
+            "website": "http://www.palmeiras.com.br",
+            "email": null,
+            "founded": 1914,
+            "clubColors": "Green / White",
+            "venue": "Allianz Parque",
+            "lastUpdated": "2022-04-06T13:14:55Z"
+        },
+        {
+            "id": 1770,
+            "area": {
+                "id": 2032,
+                "name": "Brazil"
+            },
+            "name": "Botafogo FR",
+            "shortName": "Botafogo",
+            "tla": "BOT",
+            "crestUrl": "https://crests.football-data.org/1770.png",
+            "address": "Avenida Venceslau Brás 72, Bairro Botafago Rio de Janeiro, RJ 22290-140",
+            "phone": "+55 (21) 25437272",
+            "website": "http://www.botafogo.com.br",
+            "email": "ouvidoria@botafogo.com.br",
+            "founded": 1904,
+            "clubColors": "Black / White",
+            "venue": "Estádio Nilton Santos",
+            "lastUpdated": "2023-02-18T08:43:47Z"
+        },
+        {
+            "id": 1771,
+            "area": {
+                "id": 2032,
+                "name": "Brazil"
+            },
+            "name": "Cruzeiro EC",
+            "shortName": "Cruzeiro",
+            "tla": "CRU",
+            "crestUrl": "https://crests.football-data.org/1771.png",
+            "address": "Rua Timbiras 2903, Bairro Preto Belo Horizonte, MG 30140-062",
+            "phone": "+55 (31) 33491502",
+            "website": "http://www.cruzeiro.com.br",
+            "email": "assessoria@clube.cruzeiro.com.br",
+            "founded": 1921,
+            "clubColors": "Blue / White",
+            "venue": "Estádio Governador Magalhães Pinto",
+            "lastUpdated": "2022-04-10T11:03:46Z"
+        },
+        {
+            "id": 1776,
+            "area": {
+                "id": 2032,
+                "name": "Brazil"
+            },
+            "name": "São Paulo FC",
+            "shortName": "São Paulo",
+            "tla": "PAU",
+            "crestUrl": "https://crests.football-data.org/1776.png",
+            "address": "null São Paulo, SP null",
+            "phone": "+55 (11) 37498000",
+            "website": "http://www.saopaulofc.net",
+            "email": "site@saopaulofc.net",
+            "founded": 1930,
+            "clubColors": "White / Red / Black",
+            "venue": "Estádio do Morumbi",
+            "lastUpdated": "2023-02-18T08:43:44Z"
+        },
+        {
+            "id": 1777,
+            "area": {
+                "id": 2032,
+                "name": "Brazil"
+            },
+            "name": "EC Bahia",
+            "shortName": "Bahia",
+            "tla": "BAH",
+            "crestUrl": "https://crests.football-data.org/1777.png",
+            "address": "Rua Antônio Fernandes S/N, Jardim das Margaridas Salvador, BA 41502-590",
+            "phone": "+55 (71) 22031931",
+            "website": "http://www.esporteclubebahia.com.br",
+            "email": "contato@esporteclubebahia.com.br",
+            "founded": 1931,
+            "clubColors": "Blue / White / Red",
+            "venue": "Estádio Governador Roberto Santos",
+            "lastUpdated": "2023-02-18T08:43:40Z"
+        },
+        {
+            "id": 1779,
+            "area": {
+                "id": 2032,
+                "name": "Brazil"
+            },
+            "name": "SC Corinthians Paulista",
+            "shortName": "Corinthians",
+            "tla": "COR",
+            "crestUrl": "https://crests.football-data.org/1779.svg",
+            "address": "Rua São Jorge 777, Tatuapé São Paulo, SP 03087-000",
+            "phone": "+55 (11) 61953000",
+            "website": "http://www.corinthians.com.br",
+            "email": "contato@corinthiansfutebol.com.br",
+            "founded": 1910,
+            "clubColors": "Black / White",
+            "venue": "Neo Química Arena",
+            "lastUpdated": "2021-03-21T09:50:23Z"
+        },
+        {
+            "id": 1780,
+            "area": {
+                "id": 2032,
+                "name": "Brazil"
+            },
+            "name": "CR Vasco da Gama",
+            "shortName": "Vasco da Gama",
+            "tla": "VAS",
+            "crestUrl": "https://crests.football-data.org/1780.png",
+            "address": "Rua Gen. Almério de Moura 131, Bairro Vasco da Gama Rio de Janeiro, RJ 20921-060",
+            "phone": "+55 (21) 21767373",
+            "website": "http://www.vasco.com.br",
+            "email": "contato@vascoonline.net",
+            "founded": 1898,
+            "clubColors": "Black / White",
+            "venue": "Estádio Club de Regatas Vasco da Gama",
+            "lastUpdated": "2023-02-18T08:43:37Z"
+        },
+        {
+            "id": 1783,
+            "area": {
+                "id": 2032,
+                "name": "Brazil"
+            },
+            "name": "CR Flamengo",
+            "shortName": "Flamengo",
+            "tla": "FLA",
+            "crestUrl": "https://crests.football-data.org/1783.png",
+            "address": "null Rio de Janeiro, RJ null",
+            "phone": null,
+            "website": "https://www.flamengo.com.br/pagina-inicial-basquete",
+            "email": null,
+            "founded": 1919,
+            "clubColors": "Red / Black / White",
+            "venue": "Estadio Jornalista Mário Filho",
+            "lastUpdated": "2022-04-06T13:13:43Z"
+        },
+        {
+            "id": 1838,
+            "area": {
+                "id": 2032,
+                "name": "Brazil"
+            },
+            "name": "América FC",
+            "shortName": "América (MG)",
+            "tla": "AMÉ",
+            "crestUrl": "https://crests.football-data.org/1838.png",
+            "address": "Av. dos Andradas 3000, Santa Efigênia Belo Horizonte, MG 30260-070",
+            "phone": "+55 (31) 34318150",
+            "website": "http://www.americamineiro.com.br",
+            "email": "sede@americamineiro.com.br",
+            "founded": 1912,
+            "clubColors": "Green / Black",
+            "venue": "Estádio Raimundo Sampaio",
+            "lastUpdated": "2022-02-22T14:02:41Z"
+        },
+        {
+            "id": 3984,
+            "area": {
+                "id": 2032,
+                "name": "Brazil"
+            },
+            "name": "Fortaleza EC",
+            "shortName": "Fortaleza",
+            "tla": "FEC",
+            "crestUrl": "https://crests.football-data.org/3984.png",
+            "address": "Avenida Senador Fernandes Távora 200, Pici Fortaleza, CE 60510-290",
+            "phone": "+55 (85) 34962846",
+            "website": "http://www.fortalezaec.net",
+            "email": "contato@fortalezaec.net",
+            "founded": 1918,
+            "clubColors": "Red / Blue / White",
+            "venue": "Estádio Castelão",
+            "lastUpdated": "2022-04-06T13:16:50Z"
+        },
+        {
+            "id": 4241,
+            "area": {
+                "id": 2032,
+                "name": "Brazil"
+            },
+            "name": "Coritiba FBC",
+            "shortName": "Coritiba",
+            "tla": "COR",
+            "crestUrl": "https://crests.football-data.org/4241.png",
+            "address": "Rua Ubaldino do Amaral 37, Alto da Glória Curitiba, PR 80060-195",
+            "phone": "+55 (41) 32181909",
+            "website": "http://www.coritiba.com.br",
+            "email": null,
+            "founded": 1909,
+            "clubColors": "Green / White",
+            "venue": "Estádio Major Antônio Couto Pereira",
+            "lastUpdated": "2023-02-18T08:43:33Z"
+        },
+        {
+            "id": 4250,
+            "area": {
+                "id": 2032,
+                "name": "Brazil"
+            },
+            "name": "Goiás EC",
+            "shortName": "Goiás",
+            "tla": "GOI",
+            "crestUrl": "https://crests.football-data.org/4250.png",
+            "address": "Av. Edmundo Pinheiro de Abreu 721, Setor Bela Vista Goiás, GO 74823-030",
+            "phone": "+55 (62) 39467435",
+            "website": "http://www.goiasec.com.br",
+            "email": null,
+            "founded": 1943,
+            "clubColors": "Green / White",
+            "venue": "Estádio de Hailé Pinheiro",
+            "lastUpdated": "2023-02-18T08:43:31Z"
+        },
+        {
+            "id": 4286,
+            "area": {
+                "id": 2032,
+                "name": "Brazil"
+            },
+            "name": "RB Bragantino",
+            "shortName": "Bragantino",
+            "tla": "RBB",
+            "crestUrl": "https://crests.football-data.org/4286.png",
+            "address": "Rua Emílio Colela S/N, Jd. Nova Bragança Bragança Paulista, SP 12914-410",
+            "phone": "+55 (11) 22771036",
+            "website": "http://www.bragantino.net",
+            "email": "contato@bragantino.com.br",
+            "founded": 1928,
+            "clubColors": "White / Black",
+            "venue": "Estádio Nabi Abi Chedid",
+            "lastUpdated": "2023-02-18T08:43:26Z"
+        },
+        {
+            "id": 4289,
+            "area": {
+                "id": 2032,
+                "name": "Brazil"
+            },
+            "name": "Cuiabá EC",
+            "shortName": "Cuiabá EC",
+            "tla": "CUI",
+            "crestUrl": "https://crests.football-data.org/4289_large.png",
+            "address": "Rodovia BR 364, Bairro Distrito Industriário Cuiabá, MT 78065-230",
+            "phone": "+55 (65) 36676706",
+            "website": "http://www.cuiabaesporteclube.com.br",
+            "email": "cuiabaesporteclube@gmail.com",
+            "founded": 2001,
+            "clubColors": "Green / Yellow",
+            "venue": "Arena Pantanal",
+            "lastUpdated": "2021-07-22T10:54:52Z"
+        },
+        {
+            "id": 6684,
+            "area": {
+                "id": 2032,
+                "name": "Brazil"
+            },
+            "name": "SC Internacional",
+            "shortName": "Internacional",
+            "tla": "SCI",
+            "crestUrl": "https://crests.football-data.org/6684.png",
+            "address": "Avenida Padre Cacique 891, Bairro Menino Deus Porto Alegre, RS 90810-240",
+            "phone": "+55 (51) 32304600",
+            "website": "http://www.internacional.com.br",
+            "email": "ouvidoria@internacional.com.br",
+            "founded": 1909,
+            "clubColors": "Red / White",
+            "venue": "Estádio José Pinheiro Borba",
+            "lastUpdated": "2023-02-18T08:43:22Z"
+        },
+        {
+            "id": 6685,
+            "area": {
+                "id": 2032,
+                "name": "Brazil"
+            },
+            "name": "Santos FC",
+            "shortName": "Santos",
+            "tla": "SAN",
+            "crestUrl": "https://crests.football-data.org/6685.png",
+            "address": "Rua Princesa Isabel S/N, Vila Belmiro Santos, SP 11075-501",
+            "phone": "+55 (13) 32574000",
+            "website": "http://santosfc.com.br",
+            "email": "imprensa@santosfc.com.br",
+            "founded": 1912,
+            "clubColors": "Black / White",
+            "venue": "Estádio Urbano Caldeira",
+            "lastUpdated": "2023-02-18T08:43:18Z"
+        }
+    ]
+}
