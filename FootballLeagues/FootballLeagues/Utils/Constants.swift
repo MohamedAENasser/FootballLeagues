@@ -9,7 +9,7 @@ import Foundation
 
 enum Constants {
     enum Network {
-        static let baseUrl = "https://api.football-data.org/v2"
         static let apiKey = "API_Key"
+        static let baseURL = "https://api.football-data.org/v2"
     }
 }
