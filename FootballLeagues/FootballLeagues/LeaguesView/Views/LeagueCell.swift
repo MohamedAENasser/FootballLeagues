@@ -29,6 +29,7 @@ struct LeagueCell: View {
         .onAppear {
             Task {
                 await viewModel.getTeams()
+                await viewModel.getMatches()
             }
         }
     }
@@ -84,7 +85,7 @@ struct LeagueCell: View {
 
     var numberOfMatchesView: some View {
         VStack(alignment: .center, spacing: 0) {
-            Text("12") // TODO: Show the actual number of matches from the proper api
+            Text("\(viewModel.matches?.count ?? 0)")
 
             Image("match-icon")
                 .resizable()

@@ -49,6 +49,9 @@
 		CF1C2A8B2AAD23DB00862A68 /* Matches_Stub_2152.json in Resources */ = {isa = PBXBuildFile; fileRef = CF1C2A7E2AAD23DB00862A68 /* Matches_Stub_2152.json */; };
 		CF1C2A8C2AAD23DB00862A68 /* Matches_Stub_2017.json in Resources */ = {isa = PBXBuildFile; fileRef = CF1C2A7F2AAD23DB00862A68 /* Matches_Stub_2017.json */; };
 		CF1C2A8E2AAD28A800862A68 /* Competitions_Stub.json in Resources */ = {isa = PBXBuildFile; fileRef = CF1C2A8D2AAD28A800862A68 /* Competitions_Stub.json */; };
+		CF1C2A912AAD33F900862A68 /* MatchesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C2A902AAD33F900862A68 /* MatchesResponse.swift */; };
+		CF1C2A932AAD347A00862A68 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C2A922AAD347A00862A68 /* Match.swift */; };
+		CF1C2A952AAD35AB00862A68 /* MatchesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C2A942AAD35AB00862A68 /* MatchesRequest.swift */; };
 		CFEA23D12AAA1B73005271AB /* FootballLeaguesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEA23D02AAA1B73005271AB /* FootballLeaguesApp.swift */; };
 		CFEA23D52AAA1B74005271AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFEA23D42AAA1B74005271AB /* Assets.xcassets */; };
 		CFEA23D82AAA1B74005271AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFEA23D72AAA1B74005271AB /* Preview Assets.xcassets */; };
@@ -97,6 +100,9 @@
 		CF1C2A7E2AAD23DB00862A68 /* Matches_Stub_2152.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Matches_Stub_2152.json; sourceTree = "<group>"; };
 		CF1C2A7F2AAD23DB00862A68 /* Matches_Stub_2017.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Matches_Stub_2017.json; sourceTree = "<group>"; };
 		CF1C2A8D2AAD28A800862A68 /* Competitions_Stub.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Competitions_Stub.json; sourceTree = "<group>"; };
+		CF1C2A902AAD33F900862A68 /* MatchesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesResponse.swift; sourceTree = "<group>"; };
+		CF1C2A922AAD347A00862A68 /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		CF1C2A942AAD35AB00862A68 /* MatchesRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesRequest.swift; sourceTree = "<group>"; };
 		CFEA23CD2AAA1B73005271AB /* FootballLeagues.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootballLeagues.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFEA23D02AAA1B73005271AB /* FootballLeaguesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballLeaguesApp.swift; sourceTree = "<group>"; };
 		CFEA23D42AAA1B74005271AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -138,6 +144,7 @@
 			children = (
 				CF1C2A352AACFC6100862A68 /* Competition */,
 				CF1C2A362AACFC6D00862A68 /* Team */,
+				CF1C2A8F2AAD33E200862A68 /* Match */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -175,6 +182,7 @@
 			children = (
 				CF1C2A132AABD6EA00862A68 /* CompetitionsRequest.swift */,
 				CF1C2A302AACFC1900862A68 /* TeamsRequest.swift */,
+				CF1C2A942AAD35AB00862A68 /* MatchesRequest.swift */,
 			);
 			path = Requests;
 			sourceTree = "<group>";
@@ -253,6 +261,15 @@
 				CF1C2A7F2AAD23DB00862A68 /* Matches_Stub_2017.json */,
 			);
 			path = Matches;
+			sourceTree = "<group>";
+		};
+		CF1C2A8F2AAD33E200862A68 /* Match */ = {
+			isa = PBXGroup;
+			children = (
+				CF1C2A902AAD33F900862A68 /* MatchesResponse.swift */,
+				CF1C2A922AAD347A00862A68 /* Match.swift */,
+			);
+			path = Match;
 			sourceTree = "<group>";
 		};
 		CFEA23C42AAA1B73005271AB = {
@@ -401,12 +418,15 @@
 				CF1C2A0F2AABC5C100862A68 /* DataRequestProtocol.swift in Sources */,
 				CF1C2A192AABDE1300862A68 /* Competition.swift in Sources */,
 				CF1C2A142AABD6EA00862A68 /* CompetitionsRequest.swift in Sources */,
+				CF1C2A952AAD35AB00862A68 /* MatchesRequest.swift in Sources */,
 				CF1C2A222AACAD4B00862A68 /* AppError.swift in Sources */,
+				CF1C2A932AAD347A00862A68 /* Match.swift in Sources */,
 				CF1C2A2E2AACFBD200862A68 /* LeagueCellViewModel.swift in Sources */,
 				CF1C2A382AACFC9B00862A68 /* Team.swift in Sources */,
 				CFEA23D12AAA1B73005271AB /* FootballLeaguesApp.swift in Sources */,
 				CF1C2A172AABD73A00862A68 /* CompetitionsResponse.swift in Sources */,
 				CF1C2A2C2AACF7EE00862A68 /* Constants.swift in Sources */,
+				CF1C2A912AAD33F900862A68 /* MatchesResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

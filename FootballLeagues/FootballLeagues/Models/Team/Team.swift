@@ -29,6 +29,6 @@ struct Team: Codable {
 
 // MARK: - Area
 struct Area: Codable {
-    let id: Int
+    let id: Int?
     let name: String?
 }
