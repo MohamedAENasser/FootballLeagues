@@ -12,7 +12,7 @@ class LeagueCellViewModel: ObservableObject {
     var teamsRequest: TeamsRequest
 
     let competitionID: Int
-    @Published var teams: [Team] = []
+    @Published var teams: [Team]?
 
     init(competitionID: Int) {
         self.competitionID = competitionID
@@ -21,6 +21,8 @@ class LeagueCellViewModel: ObservableObject {
 
     /// Get teams data from the backend.
     @MainActor func getTeams() async {
+        if teams != nil { return }
+
         let result = await networkService.request(teamsRequest)
 
         switch result {

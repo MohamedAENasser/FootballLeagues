@@ -74,7 +74,7 @@ struct LeagueCell: View {
 
     var numberOfTeamsView: some View {
         VStack(alignment: .center, spacing: 0) {
-            Text("\(viewModel.teams.count)")
+            Text("\(viewModel.teams?.count ?? 0)")
 
             Image("team-icon")
                 .resizable()
