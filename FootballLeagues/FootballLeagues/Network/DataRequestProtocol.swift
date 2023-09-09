@@ -34,7 +34,7 @@ extension DataRequestProtocol {
         [:]
     }
 
-    var NetworkServiceProtocol: [String : String] {
+    var queryItems: [String : String] {
         [:]
     }
 }
