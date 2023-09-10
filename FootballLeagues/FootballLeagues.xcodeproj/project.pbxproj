@@ -55,6 +55,7 @@
 		CF1C2A982AAD3AB400862A68 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C2A972AAD3AB400862A68 /* LoadingView.swift */; };
 		CF1C2A9C2AAD4F9200862A68 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C2A9B2AAD4F9200862A68 /* ImageLoader.swift */; };
 		CF1C2AA22AAE392500862A68 /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = CF1C2AA12AAE392500862A68 /* SQLite */; };
+		CF1C2AA52AAE39C100862A68 /* CompetitionDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C2AA42AAE39C100862A68 /* CompetitionDataStore.swift */; };
 		CFEA23D12AAA1B73005271AB /* FootballLeaguesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEA23D02AAA1B73005271AB /* FootballLeaguesApp.swift */; };
 		CFEA23D52AAA1B74005271AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFEA23D42AAA1B74005271AB /* Assets.xcassets */; };
 		CFEA23D82AAA1B74005271AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFEA23D72AAA1B74005271AB /* Preview Assets.xcassets */; };
@@ -108,6 +109,7 @@
 		CF1C2A942AAD35AB00862A68 /* MatchesRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesRequest.swift; sourceTree = "<group>"; };
 		CF1C2A972AAD3AB400862A68 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		CF1C2A9B2AAD4F9200862A68 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		CF1C2AA42AAE39C100862A68 /* CompetitionDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompetitionDataStore.swift; sourceTree = "<group>"; };
 		CFEA23CD2AAA1B73005271AB /* FootballLeagues.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootballLeagues.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFEA23D02AAA1B73005271AB /* FootballLeaguesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballLeaguesApp.swift; sourceTree = "<group>"; };
 		CFEA23D42AAA1B74005271AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -287,6 +289,14 @@
 			path = StateViews;
 			sourceTree = "<group>";
 		};
+		CF1C2AA32AAE39BA00862A68 /* DataStorage */ = {
+			isa = PBXGroup;
+			children = (
+				CF1C2AA42AAE39C100862A68 /* CompetitionDataStore.swift */,
+			);
+			path = DataStorage;
+			sourceTree = "<group>";
+		};
 		CFEA23C42AAA1B73005271AB = {
 			isa = PBXGroup;
 			children = (
@@ -307,6 +317,7 @@
 			isa = PBXGroup;
 			children = (
 				CFEA23D02AAA1B73005271AB /* FootballLeaguesApp.swift */,
+				CF1C2AA32AAE39BA00862A68 /* DataStorage */,
 				CF1C2A392AAD1F6600862A68 /* Stubs */,
 				CF1C2A1A2AACAA0700862A68 /* LeaguesView */,
 				CF1C2A152AABD72200862A68 /* Models */,
@@ -430,6 +441,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF1C2AA52AAE39C100862A68 /* CompetitionDataStore.swift in Sources */,
 				CF1C2A202AACAD1800862A68 /* AppState.swift in Sources */,
 				CF1C2A0A2AABC4B900862A68 /* NetworkService.swift in Sources */,
 				CF1C2A262AACCB9700862A68 /* LeagueCell.swift in Sources */,
