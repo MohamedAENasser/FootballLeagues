@@ -74,22 +74,58 @@ struct LeagueCell: View {
     }
 
     var numberOfTeamsView: some View {
-        VStack(alignment: .center, spacing: 0) {
-            Text("\(viewModel.teams?.count ?? 0)")
+        switch viewModel.teamsStatus {
+        case .success(let teams):
+            return AnyView(
+                VStack(alignment: .center, spacing: 0) {
+                    Text("\(teams.count)")
 
-            Image("team-icon")
-                .resizable()
-                .leagueSmallImageStyle()
+                    Image("team-icon")
+                        .resizable()
+                        .leagueSmallImageStyle()
+                }
+            )
+
+        case .loading:
+            return AnyView(
+                ProgressView()
+                    .progressViewStyle(.circular)
+                    .leagueSmallImageStyle()
+            )
+
+        case .failure(let error):
+            return AnyView(
+                Text(error.description) // TODO: Error Handling
+            )
+
         }
     }
 
     var numberOfMatchesView: some View {
-        VStack(alignment: .center, spacing: 0) {
-            Text("\(viewModel.matches?.count ?? 0)")
+        switch viewModel.matchesStatus {
+        case .success(let matches):
+            return AnyView(
+                VStack(alignment: .center, spacing: 0) {
+                    Text("\(matches.count)")
 
-            Image("match-icon")
-                .resizable()
-                .leagueSmallImageStyle()
+                    Image("match-icon")
+                        .resizable()
+                        .leagueSmallImageStyle()
+                }
+            )
+
+        case .loading:
+            return AnyView(
+                ProgressView()
+                    .progressViewStyle(.circular)
+                    .leagueSmallImageStyle()
+            )
+
+        case .failure(let error):
+            return AnyView(
+                Text(error.description) // TODO: Error Handling
+            )
+
         }
     }
 
