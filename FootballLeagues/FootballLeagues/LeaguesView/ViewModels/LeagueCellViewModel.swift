@@ -59,12 +59,23 @@ class LeagueCellViewModel: ObservableObject {
     @MainActor func getMatches() async {
         if case .success = matchesStatus { return }
 
+        // Getting data from local storage
+        let storedMatches = MatchDataStore.shared.getAllMatches(for: competition.id)
+        guard storedMatches.isEmpty else {
+            matchesStatus = .success(storedMatches)
+            return
+        }
+
+        // Getting Data from the server
         let result = await networkService.request(matchesRequest)
 
         switch result {
 
         case .success(let response):
             matchesStatus = .success(response.matches)
+
+            // Save fetched matches to local storage
+            storeMatchesToDB(response.matches)
 
         case .failure(let error):
             matchesStatus = .failure(error)
@@ -92,6 +103,13 @@ class LeagueCellViewModel: ObservableObject {
     private func storeTeamsToDB(_ teams: [Team]) {
         teams.forEach {
             TeamDataStore.shared.insert(team: $0, competitionID: competition.id)
+        }
+    }
+
+    /// Save matches to local storage
+    private func storeMatchesToDB(_ matches: [Match]) {
+        matches.forEach {
+            MatchDataStore.shared.insert(match: $0, competitionID: competition.id)
         }
     }
 }
