@@ -13,7 +13,7 @@ struct LeagueCell: View {
 
     init(competition: Competition) {
         self.competition = competition
-        viewModel = LeagueCellViewModel(competitionID: competition.id)
+        viewModel = LeagueCellViewModel(competition: competition)
     }
 
     var body: some View {
@@ -28,6 +28,7 @@ struct LeagueCell: View {
         }
         .onAppear {
             Task {
+                viewModel.getLogoImage()
                 await viewModel.getTeams()
                 await viewModel.getMatches()
             }
@@ -36,10 +37,15 @@ struct LeagueCell: View {
 
     var logoView: some View {
         HStack {
-            Image("DefaultFootballLeague-icon")
-                .resizable()
-                .leagueLargeImageStyle()
-
+            if let logoImage = viewModel.logoImage {
+                Image(uiImage: logoImage)
+                    .resizable()
+                    .leagueLargeImageStyle()
+            } else {
+                Image("DefaultFootballLeague-icon")
+                    .resizable()
+                    .leagueLargeImageStyle()
+            }
             Divider()
         }
         .padding(EdgeInsets(top: 10, leading: 0, bottom: 10, trailing: 0))
