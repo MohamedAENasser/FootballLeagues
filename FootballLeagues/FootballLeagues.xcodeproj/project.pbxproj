@@ -54,6 +54,7 @@
 		CF1C2A952AAD35AB00862A68 /* MatchesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C2A942AAD35AB00862A68 /* MatchesRequest.swift */; };
 		CF1C2A982AAD3AB400862A68 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C2A972AAD3AB400862A68 /* LoadingView.swift */; };
 		CF1C2A9C2AAD4F9200862A68 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C2A9B2AAD4F9200862A68 /* ImageLoader.swift */; };
+		CF1C2AA22AAE392500862A68 /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = CF1C2AA12AAE392500862A68 /* SQLite */; };
 		CFEA23D12AAA1B73005271AB /* FootballLeaguesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEA23D02AAA1B73005271AB /* FootballLeaguesApp.swift */; };
 		CFEA23D52AAA1B74005271AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFEA23D42AAA1B74005271AB /* Assets.xcassets */; };
 		CFEA23D82AAA1B74005271AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFEA23D72AAA1B74005271AB /* Preview Assets.xcassets */; };
@@ -118,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF1C2AA22AAE392500862A68 /* SQLite in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +343,9 @@
 			dependencies = (
 			);
 			name = FootballLeagues;
+			packageProductDependencies = (
+				CF1C2AA12AAE392500862A68 /* SQLite */,
+			);
 			productName = FootballLeagues;
 			productReference = CFEA23CD2AAA1B73005271AB /* FootballLeagues.app */;
 			productType = "com.apple.product-type.application";
@@ -369,6 +374,9 @@
 				Base,
 			);
 			mainGroup = CFEA23C42AAA1B73005271AB;
+			packageReferences = (
+				CF1C2AA02AAE392500862A68 /* XCRemoteSwiftPackageReference "SQLite.swift" */,
+			);
 			productRefGroup = CFEA23CE2AAA1B73005271AB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -641,6 +649,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CF1C2AA02AAE392500862A68 /* XCRemoteSwiftPackageReference "SQLite.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephencelis/SQLite.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.14.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CF1C2AA12AAE392500862A68 /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF1C2AA02AAE392500862A68 /* XCRemoteSwiftPackageReference "SQLite.swift" */;
+			productName = SQLite;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CFEA23C52AAA1B73005271AB /* Project object */;
 }
