@@ -32,12 +32,22 @@ class LeagueCellViewModel: ObservableObject {
     @MainActor func getTeams() async {
         if case .success = teamsStatus { return }
 
+        // Getting data from local storage
+        let storedTeams = TeamDataStore.shared.getAllTeams(for: competition.id)
+        guard storedTeams.isEmpty else {
+            teamsStatus = .success(storedTeams)
+            return
+        }
+
+        // Getting Data from the server
         let result = await networkService.request(teamsRequest)
 
         switch result {
 
         case .success(let response):
             teamsStatus = .success(response.teams)
+            // Save fetched teams to local storage
+            storeTeamsToDB(response.teams)
 
         case .failure(let error):
             teamsStatus = .failure(error)
@@ -75,6 +85,13 @@ class LeagueCellViewModel: ObservableObject {
             DispatchQueue.main.async {
                 self.logoImage = self.imageLoader.getImage(urlString: urlString)
             }
+        }
+    }
+
+    /// Save teams to local storage
+    private func storeTeamsToDB(_ teams: [Team]) {
+        teams.forEach {
+            TeamDataStore.shared.insert(team: $0, competitionID: competition.id)
         }
     }
 }

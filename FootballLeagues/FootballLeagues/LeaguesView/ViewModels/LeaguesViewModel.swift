@@ -15,6 +15,7 @@ class LeaguesViewModel: ObservableObject {
     init(networkService: NetworkServiceProtocol = NetworkService()) {
         self.networkService = networkService
     }
+
     /// Get competitions data from the backend.
     @MainActor func getCompetitions() async {
         state = .loading

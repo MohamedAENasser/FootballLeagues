@@ -13,7 +13,7 @@ class CompetitionDataStore {
     static let competitionDBDirName = "CompetitionDB"
     static let storeName = "competition.sqlite3"
 
-    private let competitions = Table("competitions")
+    let competitionsTable = Table("competitions")
 
     // Competition properties
     private let id = Expression<Int64>("id")
@@ -50,14 +50,14 @@ class CompetitionDataStore {
             return
         }
         do {
-            try database.run(competitions.create { table in
+            try database.run(competitionsTable.create { table in
                 table.column(id, primaryKey: .autoincrement)
                 table.column(competitionID)
                 table.column(competitionName)
                 table.column(competitionEmblemURL)
                 table.column(competitionLastUpdated)
             })
-            print("Table Created...")
+            print("Competition Table Created...")
         } catch {
             print(error)
         }
@@ -66,7 +66,7 @@ class CompetitionDataStore {
     @discardableResult func insert(competition: Competition) -> Int64? {
         guard let database = db else { return nil }
 
-        let insert = competitions.insert(competitionID <- competition.id,
+        let insert = competitionsTable.insert(competitionID <- competition.id,
                                   competitionName <- competition.name,
                                   competitionEmblemURL <- competition.emblemURL ?? "",
                                   competitionLastUpdated <- competition.lastUpdated)
@@ -84,7 +84,7 @@ class CompetitionDataStore {
         guard let database = db else { return [] }
 
         do {
-            for competition in try database.prepare(self.competitions) {
+            for competition in try database.prepare(competitionsTable) {
                 competitions.append(
                     Competition(
                         id: competition[competitionID],
