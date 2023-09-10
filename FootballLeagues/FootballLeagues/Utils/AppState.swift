@@ -10,4 +10,5 @@ import Foundation
 enum AppState<T> {
     case success(T)
     case failure(AppError)
+    case loading
 }

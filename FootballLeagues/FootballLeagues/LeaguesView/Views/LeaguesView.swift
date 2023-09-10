@@ -21,6 +21,9 @@ struct LeaguesView: View {
 
             case .failure(let error):
                 Text(error.description) // TODO: - Error handling
+
+            case .loading:
+                LoadingView()
             }
         }
         .navigationTitle("Football leagues")
