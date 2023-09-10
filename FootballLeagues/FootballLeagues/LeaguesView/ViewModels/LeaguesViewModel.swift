@@ -19,6 +19,14 @@ class LeaguesViewModel: ObservableObject {
     @MainActor func getCompetitions() async {
         state = .loading
 
+        // Getting data from local storage
+        let storedCompetitions = CompetitionDataStore.shared.getAllCompetitions()
+        guard storedCompetitions.isEmpty else {
+            state = .success(storedCompetitions)
+            return
+        }
+
+        // Getting Data from the server
         let result = await networkService.request(request)
 
         switch result {
@@ -26,9 +34,18 @@ class LeaguesViewModel: ObservableObject {
         case .success(let response):
             state = .success(response.competitions)
 
+            // Save fetched competitions to local storage
+            storeCompetitionsToDB(response.competitions)
+
         case .failure(let error):
             state = .failure(error)
         }
+    }
 
+    /// Save competitions to local storage
+    private func storeCompetitionsToDB(_ competitions: [Competition]) {
+        competitions.forEach {
+            CompetitionDataStore.shared.insert(competition: $0)
+        }
     }
 }
