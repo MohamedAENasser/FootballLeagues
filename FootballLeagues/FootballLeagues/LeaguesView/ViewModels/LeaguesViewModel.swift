@@ -8,10 +8,13 @@
 import SwiftUI
 
 class LeaguesViewModel: ObservableObject {
-    let networkService = NetworkService()
+    let networkService: NetworkServiceProtocol
     var request = CompetitionsRequest()
     @Published var state: AppState<[Competition]> = .loading
-    
+
+    init(networkService: NetworkServiceProtocol = NetworkService()) {
+        self.networkService = networkService
+    }
     /// Get competitions data from the backend.
     @MainActor func getCompetitions() async {
         state = .loading

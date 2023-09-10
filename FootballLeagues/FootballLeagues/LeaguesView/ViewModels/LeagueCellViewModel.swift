@@ -8,7 +8,7 @@
 import SwiftUI
 
 class LeagueCellViewModel: ObservableObject {
-    let networkService = NetworkService()
+    let networkService: NetworkServiceProtocol
     var teamsRequest: TeamsRequest
     var matchesRequest: MatchesRequest
     private var imageLoader: ImageLoaderProtocol
@@ -18,7 +18,8 @@ class LeagueCellViewModel: ObservableObject {
     @Published var matchesStatus: AppState<[Match]> = .loading
     @Published var logoImage: UIImage?
 
-    init(competition: Competition, imageLoader: ImageLoaderProtocol = ImageLoader()) {
+    init(competition: Competition, networkService: NetworkServiceProtocol = NetworkService(), imageLoader: ImageLoaderProtocol = ImageLoader()) {
+        self.networkService = networkService
         self.competition = competition
         self.teamsRequest = TeamsRequest(competitionID: competition.id)
         self.matchesRequest = MatchesRequest(competitionID: competition.id)
