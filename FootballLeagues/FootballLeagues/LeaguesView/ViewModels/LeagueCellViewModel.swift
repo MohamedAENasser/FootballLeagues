@@ -11,15 +11,20 @@ class LeagueCellViewModel: ObservableObject {
     let networkService = NetworkService()
     var teamsRequest: TeamsRequest
     var matchesRequest: MatchesRequest
+    private var imageLoader: ImageLoaderProtocol
 
-    let competitionID: Int
+    let competition: Competition
     @Published var teamsStatus: AppState<[Team]> = .loading
     @Published var matchesStatus: AppState<[Match]> = .loading
+    @Published var logoImage: UIImage?
 
-    init(competitionID: Int) {
-        self.competitionID = competitionID
-        self.teamsRequest = TeamsRequest(competitionID: competitionID)
-        self.matchesRequest = MatchesRequest(competitionID: competitionID)
+    init(competition: Competition, imageLoader: ImageLoaderProtocol = ImageLoader()) {
+        self.competition = competition
+        self.teamsRequest = TeamsRequest(competitionID: competition.id)
+        self.matchesRequest = MatchesRequest(competitionID: competition.id)
+        self.imageLoader = imageLoader
+
+        setupBindings()
     }
 
     /// Get teams data from the backend.
@@ -54,5 +59,21 @@ class LeagueCellViewModel: ObservableObject {
             matchesStatus = .failure(error)
         }
 
+    }
+
+    func getLogoImage() {
+        DispatchQueue.main.async {
+            guard let urlString = self.competition.emblemURL else { return }
+            self.logoImage = self.imageLoader.getImage(urlString: urlString)
+        }
+    }
+
+    private func setupBindings() {
+        imageLoader.didUpdateImagesList = { [weak self] urlString in
+            guard let self = self, urlString == competition.emblemURL, self.logoImage == nil else { return }
+            DispatchQueue.main.async {
+                self.logoImage = self.imageLoader.getImage(urlString: urlString)
+            }
+        }
     }
 }
