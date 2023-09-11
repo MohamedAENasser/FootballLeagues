@@ -75,7 +75,6 @@ struct LeagueCell: View {
 
     var competitionNameView: some View {
         Text("\(competition.name)")
-            .font(.title3)
             .fontWeight(.bold)
     }
 
@@ -94,9 +93,7 @@ struct LeagueCell: View {
 
         case .loading:
             return AnyView(
-                ProgressView()
-                    .progressViewStyle(.circular)
-                    .leagueSmallImageStyle()
+                Text("Loading") // TODO: Handle Loading
             )
 
         case .failure(let error):
@@ -122,9 +119,7 @@ struct LeagueCell: View {
 
         case .loading:
             return AnyView(
-                ProgressView()
-                    .progressViewStyle(.circular)
-                    .leagueSmallImageStyle()
+                Text("Loading") // TODO: Handle Loading
             )
 
         case .failure(let error):

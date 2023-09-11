@@ -15,6 +15,7 @@ struct LeaguesView: View {
             //MARK: - Handle App States
             switch viewModel.state {
             case .success(let competitions):
+                // TODO: Handle Screen Title
                 List(competitions, id: \.id) { competition in
                     LeagueCell(competition: competition)
                 }
@@ -26,7 +27,6 @@ struct LeaguesView: View {
                 LoadingView()
             }
         }
-        .navigationTitle("Football leagues")
         .onAppear {
             Task {
                 await viewModel.getCompetitions()

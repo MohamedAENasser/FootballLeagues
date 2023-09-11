@@ -58,7 +58,8 @@
 		CF1C2AA52AAE39C100862A68 /* CompetitionDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C2AA42AAE39C100862A68 /* CompetitionDataStore.swift */; };
 		CF1C2AA72AAE551E00862A68 /* TeamDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C2AA62AAE551E00862A68 /* TeamDataStore.swift */; };
 		CF1C2AA92AAE69FE00862A68 /* MatchDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C2AA82AAE69FE00862A68 /* MatchDataStore.swift */; };
-		CFEA23D12AAA1B73005271AB /* FootballLeaguesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEA23D02AAA1B73005271AB /* FootballLeaguesApp.swift */; };
+		CF311FA12AAF932F00BE7500 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF311F9F2AAF932E00BE7500 /* SceneDelegate.swift */; };
+		CF311FA22AAF932F00BE7500 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF311FA02AAF932F00BE7500 /* AppDelegate.swift */; };
 		CFEA23D52AAA1B74005271AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFEA23D42AAA1B74005271AB /* Assets.xcassets */; };
 		CFEA23D82AAA1B74005271AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFEA23D72AAA1B74005271AB /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -114,8 +115,9 @@
 		CF1C2AA42AAE39C100862A68 /* CompetitionDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompetitionDataStore.swift; sourceTree = "<group>"; };
 		CF1C2AA62AAE551E00862A68 /* TeamDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamDataStore.swift; sourceTree = "<group>"; };
 		CF1C2AA82AAE69FE00862A68 /* MatchDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchDataStore.swift; sourceTree = "<group>"; };
+		CF311F9F2AAF932E00BE7500 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CF311FA02AAF932F00BE7500 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFEA23CD2AAA1B73005271AB /* FootballLeagues.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootballLeagues.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFEA23D02AAA1B73005271AB /* FootballLeaguesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballLeaguesApp.swift; sourceTree = "<group>"; };
 		CFEA23D42AAA1B74005271AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFEA23D72AAA1B74005271AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -322,7 +324,8 @@
 		CFEA23CF2AAA1B73005271AB /* FootballLeagues */ = {
 			isa = PBXGroup;
 			children = (
-				CFEA23D02AAA1B73005271AB /* FootballLeaguesApp.swift */,
+				CF311FA02AAF932F00BE7500 /* AppDelegate.swift */,
+				CF311F9F2AAF932E00BE7500 /* SceneDelegate.swift */,
 				CF1C2AA32AAE39BA00862A68 /* DataStorage */,
 				CF1C2A392AAD1F6600862A68 /* Stubs */,
 				CF1C2A1A2AACAA0700862A68 /* LeaguesView */,
@@ -460,6 +463,7 @@
 				CF1C2A192AABDE1300862A68 /* Competition.swift in Sources */,
 				CF1C2A142AABD6EA00862A68 /* CompetitionsRequest.swift in Sources */,
 				CF1C2A952AAD35AB00862A68 /* MatchesRequest.swift in Sources */,
+				CF311FA22AAF932F00BE7500 /* AppDelegate.swift in Sources */,
 				CF1C2A222AACAD4B00862A68 /* AppError.swift in Sources */,
 				CF1C2A932AAD347A00862A68 /* Match.swift in Sources */,
 				CF1C2A982AAD3AB400862A68 /* LoadingView.swift in Sources */,
@@ -467,10 +471,10 @@
 				CF1C2A9C2AAD4F9200862A68 /* ImageLoader.swift in Sources */,
 				CF1C2A2E2AACFBD200862A68 /* LeagueCellViewModel.swift in Sources */,
 				CF1C2A382AACFC9B00862A68 /* Team.swift in Sources */,
-				CFEA23D12AAA1B73005271AB /* FootballLeaguesApp.swift in Sources */,
 				CF1C2A172AABD73A00862A68 /* CompetitionsResponse.swift in Sources */,
 				CF1C2A2C2AACF7EE00862A68 /* Constants.swift in Sources */,
 				CF1C2A912AAD33F900862A68 /* MatchesResponse.swift in Sources */,
+				CF311FA12AAF932F00BE7500 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,7 +531,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -581,7 +585,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -601,11 +605,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FootballLeagues/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = FootballLeagues/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -629,11 +634,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FootballLeagues/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = FootballLeagues/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
