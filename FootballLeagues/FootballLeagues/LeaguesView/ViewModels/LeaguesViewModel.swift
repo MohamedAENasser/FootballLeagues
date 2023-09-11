@@ -5,6 +5,7 @@
 //  Created by Mohamed Abd ElNasser on 09/09/2023.
 //
 
+import UIPilot
 import SwiftUI
 
 class LeaguesViewModel: ObservableObject {
@@ -12,8 +13,11 @@ class LeaguesViewModel: ObservableObject {
     var request = CompetitionsRequest()
     @Published var state: AppState<[Competition]> = .loading
 
-    init(networkService: NetworkServiceProtocol = NetworkService()) {
+    let pilot: UIPilot<AppCoordinator>
+
+    init(networkService: NetworkServiceProtocol = NetworkService(), pilot: UIPilot<AppCoordinator>) {
         self.networkService = networkService
+        self.pilot = pilot
     }
 
     /// Get competitions data from the backend.
@@ -41,6 +45,10 @@ class LeaguesViewModel: ObservableObject {
         case .failure(let error):
             state = .failure(error)
         }
+    }
+
+    func showTeams(for competition: Competition) {
+        pilot.push(.teams)
     }
 
     /// Save competitions to local storage

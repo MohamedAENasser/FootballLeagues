@@ -5,10 +5,11 @@
 //  Created by Mohamed Abd ElNasser on 09/09/2023.
 //
 
+import UIPilot
 import SwiftUI
 
 struct LeaguesView: View {
-    @ObservedObject var viewModel = LeaguesViewModel()
+    @ObservedObject var viewModel: LeaguesViewModel
 
     var body: some View {
         ZStack {
@@ -17,6 +18,9 @@ struct LeaguesView: View {
             case .success(let competitions):
                 List(competitions, id: \.id) { competition in
                     LeagueCell(competition: competition)
+                        .onTapGesture {
+                            viewModel.showTeams(for: competition)
+                        }
                 }
 
             case .failure(let error):
@@ -37,6 +41,6 @@ struct LeaguesView: View {
 
 struct LeaguesView_Previews: PreviewProvider {
     static var previews: some View {
-        LeaguesView(viewModel: LeaguesViewModel())
+        LeaguesView(viewModel: LeaguesViewModel(pilot: UIPilot<AppCoordinator>(initial: .leagues)))
     }
 }
