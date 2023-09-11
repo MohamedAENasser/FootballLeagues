@@ -60,6 +60,8 @@
 		CF1C2AA92AAE69FE00862A68 /* MatchDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1C2AA82AAE69FE00862A68 /* MatchDataStore.swift */; };
 		CF311FA12AAF932F00BE7500 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF311F9F2AAF932E00BE7500 /* SceneDelegate.swift */; };
 		CF311FA22AAF932F00BE7500 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF311FA02AAF932F00BE7500 /* AppDelegate.swift */; };
+		CF311FAB2AAFA2BB00BE7500 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF311FAA2AAFA2BB00BE7500 /* Coordinator.swift */; };
+		CF311FAD2AAFA3F900BE7500 /* CoordinatorScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF311FAC2AAFA3F900BE7500 /* CoordinatorScreens.swift */; };
 		CFEA23D52AAA1B74005271AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFEA23D42AAA1B74005271AB /* Assets.xcassets */; };
 		CFEA23D82AAA1B74005271AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFEA23D72AAA1B74005271AB /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -117,6 +119,8 @@
 		CF1C2AA82AAE69FE00862A68 /* MatchDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchDataStore.swift; sourceTree = "<group>"; };
 		CF311F9F2AAF932E00BE7500 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CF311FA02AAF932F00BE7500 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF311FAA2AAFA2BB00BE7500 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		CF311FAC2AAFA3F900BE7500 /* CoordinatorScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorScreens.swift; sourceTree = "<group>"; };
 		CFEA23CD2AAA1B73005271AB /* FootballLeagues.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootballLeagues.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFEA23D42AAA1B74005271AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFEA23D72AAA1B74005271AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -305,6 +309,15 @@
 			path = DataStorage;
 			sourceTree = "<group>";
 		};
+		CF311FA92AAFA2AB00BE7500 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				CF311FAA2AAFA2BB00BE7500 /* Coordinator.swift */,
+				CF311FAC2AAFA3F900BE7500 /* CoordinatorScreens.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
 		CFEA23C42AAA1B73005271AB = {
 			isa = PBXGroup;
 			children = (
@@ -326,6 +339,7 @@
 			children = (
 				CF311FA02AAF932F00BE7500 /* AppDelegate.swift */,
 				CF311F9F2AAF932E00BE7500 /* SceneDelegate.swift */,
+				CF311FA92AAFA2AB00BE7500 /* Coordinator */,
 				CF1C2AA32AAE39BA00862A68 /* DataStorage */,
 				CF1C2A392AAD1F6600862A68 /* Stubs */,
 				CF1C2A1A2AACAA0700862A68 /* LeaguesView */,
@@ -452,6 +466,7 @@
 			files = (
 				CF1C2AA52AAE39C100862A68 /* CompetitionDataStore.swift in Sources */,
 				CF1C2A202AACAD1800862A68 /* AppState.swift in Sources */,
+				CF311FAB2AAFA2BB00BE7500 /* Coordinator.swift in Sources */,
 				CF1C2A0A2AABC4B900862A68 /* NetworkService.swift in Sources */,
 				CF1C2A262AACCB9700862A68 /* LeagueCell.swift in Sources */,
 				CF1C2AA92AAE69FE00862A68 /* MatchDataStore.swift in Sources */,
@@ -459,6 +474,7 @@
 				CF1C2A1C2AACAA3D00862A68 /* LeaguesView.swift in Sources */,
 				CF1C2A312AACFC1900862A68 /* TeamsRequest.swift in Sources */,
 				CF1C2A2A2AACF79500862A68 /* LeaguesViewModel.swift in Sources */,
+				CF311FAD2AAFA3F900BE7500 /* CoordinatorScreens.swift in Sources */,
 				CF1C2A0F2AABC5C100862A68 /* DataRequestProtocol.swift in Sources */,
 				CF1C2A192AABDE1300862A68 /* Competition.swift in Sources */,
 				CF1C2A142AABD6EA00862A68 /* CompetitionsRequest.swift in Sources */,
