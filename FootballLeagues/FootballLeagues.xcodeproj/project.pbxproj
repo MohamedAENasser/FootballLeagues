@@ -70,6 +70,7 @@
 		CF311FC12AAFE2E000BE7500 /* MatchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF311FBD2AAFE2E000BE7500 /* MatchesView.swift */; };
 		CF311FC62AAFF1D200BE7500 /* MatchesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF311FC52AAFF1D200BE7500 /* MatchesViewModel.swift */; };
 		CF311FC92AAFF2AD00BE7500 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF311FC82AAFF2AD00BE7500 /* Utils.swift */; };
+		CF311FCC2AB0A1DB00BE7500 /* UserDefaults+Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF311FCB2AB0A1DB00BE7500 /* UserDefaults+Storage.swift */; };
 		CFEA23D52AAA1B74005271AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFEA23D42AAA1B74005271AB /* Assets.xcassets */; };
 		CFEA23D82AAA1B74005271AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFEA23D72AAA1B74005271AB /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -137,6 +138,7 @@
 		CF311FBD2AAFE2E000BE7500 /* MatchesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchesView.swift; sourceTree = "<group>"; };
 		CF311FC52AAFF1D200BE7500 /* MatchesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesViewModel.swift; sourceTree = "<group>"; };
 		CF311FC82AAFF2AD00BE7500 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		CF311FCB2AB0A1DB00BE7500 /* UserDefaults+Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Storage.swift"; sourceTree = "<group>"; };
 		CFEA23CD2AAA1B73005271AB /* FootballLeagues.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootballLeagues.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFEA23D42AAA1B74005271AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFEA23D72AAA1B74005271AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -391,6 +393,14 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		CF311FCA2AB0A1BF00BE7500 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CF311FCB2AB0A1DB00BE7500 /* UserDefaults+Storage.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		CFEA23C42AAA1B73005271AB = {
 			isa = PBXGroup;
 			children = (
@@ -417,6 +427,7 @@
 				CF1C2AA32AAE39BA00862A68 /* DataStorage */,
 				CF1C2A392AAD1F6600862A68 /* Stubs */,
 				CF1C2A152AABD72200862A68 /* Models */,
+				CF311FCA2AB0A1BF00BE7500 /* Extensions */,
 				CF1C2A102AABCC5600862A68 /* Utils */,
 				CF1C2A082AABB65C00862A68 /* Network */,
 				CFEA23D42AAA1B74005271AB /* Assets.xcassets */,
@@ -556,6 +567,7 @@
 				CF311FB32AAFD4EC00BE7500 /* TeamCell.swift in Sources */,
 				CF311FB12AAFBD3E00BE7500 /* TeamsView.swift in Sources */,
 				CF311FA22AAF932F00BE7500 /* AppDelegate.swift in Sources */,
+				CF311FCC2AB0A1DB00BE7500 /* UserDefaults+Storage.swift in Sources */,
 				CF1C2A222AACAD4B00862A68 /* AppError.swift in Sources */,
 				CF311FC02AAFE2E000BE7500 /* MatchCell.swift in Sources */,
 				CF1C2A932AAD347A00862A68 /* Match.swift in Sources */,

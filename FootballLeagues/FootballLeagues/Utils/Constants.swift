@@ -12,4 +12,10 @@ enum Constants {
         static let apiKey = "API_Key"
         static let baseURL = "https://api.football-data.org/v2"
     }
+
+    enum UserDefaultsKeys {
+        static let numberOfCompetitions = "NumberOfCompetitionsKey"
+        static let numberOfTeams = "NumberOfTeamsKey"
+        static let numberOfMatches = "NumberOfMatchesKey"
+    }
 }

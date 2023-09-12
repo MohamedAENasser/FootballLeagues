@@ -82,27 +82,29 @@ class MatchDataStore {
         }
     }
 
-    @discardableResult func insert(match: Match, competitionID: Int) -> Int64? {
-        guard let database = db else { return nil }
+    func insert(match: Match, competitionID: Int) async {
+        await withCheckedContinuation { continuation in
+            guard let database = db else { return continuation.resume(returning: ()) }
 
-        let insert = matchesTable.insert(matchID <- match.id,
-                                         matchUtcDate <- match.utcDate ?? "",
-                                         matchStatus <- match.status?.rawValue ?? "",
-                                         matchLastUpdated <- match.lastUpdated ?? "",
-                                         matchWinner <- match.score?.winner?.rawValue ?? "",
-                                         matchHomeTeamScore <- match.score?.fullTime.homeTeam ?? 0,
-                                         matchAwayTeamScore <- match.score?.fullTime.awayTeam ?? 0,
-                                         matchHomeTeamID <- match.homeTeam?.id ?? 0,
-                                         matchHomeTeamName <- match.homeTeam?.name ?? "",
-                                         matchAwayTeamID <- match.awayTeam?.id ?? 0,
-                                         matchAwayTeamName <- match.awayTeam?.name ?? "",
-                                         self.competitionID <- competitionID)
-        do {
-            let rowID = try database.run(insert)
-            return rowID
-        } catch {
-            print(error)
-            return nil
+            let insert = matchesTable.insert(matchID <- match.id,
+                                             matchUtcDate <- match.utcDate ?? "",
+                                             matchStatus <- match.status?.rawValue ?? "",
+                                             matchLastUpdated <- match.lastUpdated ?? "",
+                                             matchWinner <- match.score?.winner?.rawValue ?? "",
+                                             matchHomeTeamScore <- match.score?.fullTime.homeTeam ?? 0,
+                                             matchAwayTeamScore <- match.score?.fullTime.awayTeam ?? 0,
+                                             matchHomeTeamID <- match.homeTeam?.id ?? 0,
+                                             matchHomeTeamName <- match.homeTeam?.name ?? "",
+                                             matchAwayTeamID <- match.awayTeam?.id ?? 0,
+                                             matchAwayTeamName <- match.awayTeam?.name ?? "",
+                                             self.competitionID <- competitionID)
+            do {
+                try database.run(insert)
+                continuation.resume(returning: ())
+            } catch {
+                print(error)
+                continuation.resume(returning: ())
+            }
         }
     }
 

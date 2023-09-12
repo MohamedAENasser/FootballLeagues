@@ -90,31 +90,33 @@ class TeamDataStore {
         }
     }
 
-    @discardableResult func insert(team: Team, competitionID: Int) -> Int64? {
-        guard let database = db else { return nil }
+    func insert(team: Team, competitionID: Int) async {
+        await withCheckedContinuation { continuation in
+            guard let database = db else { return continuation.resume(returning: ()) }
 
-        let insert = teamsTable.insert(teamID <- team.id,
-                                  teamAreaID <- team.area?.id ?? 0,
-                                  teamAreaName <- team.area?.name ?? "",
-                                  teamName <- team.name ?? "",
-                                  teamCrestURL <- team.crestURL ?? "",
-                                  teamAddress <- team.address ?? "",
-                                  teamPhone <- team.phone ?? "",
-                                  teamWebsite <- team.website ?? "",
-                                  teamEmail <- team.email ?? "",
-                                  teamFounded <- team.founded ?? 0,
-                                  teamClubColors <- team.clubColors ?? "",
-                                  teamLastUpdated <- team.lastUpdated,
-                                  teamShortName <- team.shortName ?? "",
-                                  teamTla <- team.tla ?? "",
-                                  teamVenue <- team.venue ?? "",
-                                  self.competitionID <- competitionID)
-        do {
-            let rowID = try database.run(insert)
-            return rowID
-        } catch {
-            print(error)
-            return nil
+            let insert = teamsTable.insert(teamID <- team.id,
+                                           teamAreaID <- team.area?.id ?? 0,
+                                           teamAreaName <- team.area?.name ?? "",
+                                           teamName <- team.name ?? "",
+                                           teamCrestURL <- team.crestURL ?? "",
+                                           teamAddress <- team.address ?? "",
+                                           teamPhone <- team.phone ?? "",
+                                           teamWebsite <- team.website ?? "",
+                                           teamEmail <- team.email ?? "",
+                                           teamFounded <- team.founded ?? 0,
+                                           teamClubColors <- team.clubColors ?? "",
+                                           teamLastUpdated <- team.lastUpdated,
+                                           teamShortName <- team.shortName ?? "",
+                                           teamTla <- team.tla ?? "",
+                                           teamVenue <- team.venue ?? "",
+                                           self.competitionID <- competitionID)
+            do {
+                try database.run(insert)
+                return continuation.resume(returning: ())
+            } catch {
+                print(error)
+                return continuation.resume(returning: ())
+            }
         }
     }
 

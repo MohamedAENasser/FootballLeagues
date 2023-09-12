@@ -63,19 +63,21 @@ class CompetitionDataStore {
         }
     }
 
-    @discardableResult func insert(competition: Competition) -> Int64? {
-        guard let database = db else { return nil }
+    func insert(competition: Competition) async {
+        await withCheckedContinuation { continuation in
+            guard let database = db else { return continuation.resume(returning: ()) }
 
-        let insert = competitionsTable.insert(competitionID <- competition.id,
-                                  competitionName <- competition.name,
-                                  competitionEmblemURL <- competition.emblemURL ?? "",
-                                  competitionLastUpdated <- competition.lastUpdated)
-        do {
-            let rowID = try database.run(insert)
-            return rowID
-        } catch {
-            print(error)
-            return nil
+            let insert = competitionsTable.insert(competitionID <- competition.id,
+                                                  competitionName <- competition.name,
+                                                  competitionEmblemURL <- competition.emblemURL ?? "",
+                                                  competitionLastUpdated <- competition.lastUpdated)
+            do {
+                try database.run(insert)
+                return continuation.resume(returning: ())
+            } catch {
+                print(error)
+                return continuation.resume(returning: ())
+            }
         }
     }
 
