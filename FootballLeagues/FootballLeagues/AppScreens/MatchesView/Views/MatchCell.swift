@@ -15,6 +15,17 @@ struct MatchCell: View {
     let teamNameFont = Font.body
     let teamScoreFont = Font.body.bold()
 
+    init(viewModel: MatchCellViewModel = MatchCellViewModel(), match: Match) {
+        self.viewModel = viewModel
+        self.match = match
+
+        loadData()
+    }
+
+    func loadData() {
+        viewModel.setup(with: match)
+    }
+
     var body: some View {
         HStack {
             VStack(alignment: .leading) {
@@ -22,9 +33,6 @@ struct MatchCell: View {
                 awayTeamView
             }
             timeDetailsView
-        }
-        .onAppear {
-            viewModel.setup(with: match)
         }
     }
 

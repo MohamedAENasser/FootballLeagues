@@ -9,11 +9,21 @@ import SwiftUI
 
 struct LeagueCell: View {
     @ObservedObject var viewModel: LeagueCellViewModel
-    let competition: Competition
+    @State var competition: Competition
 
     init(competition: Competition) {
         self.competition = competition
         viewModel = LeagueCellViewModel(competition: competition)
+
+        loadData()
+    }
+
+    func loadData() {
+        Task {
+            viewModel.getLogoImage()
+            await viewModel.getTeams()
+            await viewModel.getMatches()
+        }
     }
 
     var body: some View {
@@ -38,13 +48,6 @@ struct LeagueCell: View {
 
             }
             .foregroundColor(Color.black)
-            .onAppear {
-                Task {
-                    viewModel.getLogoImage()
-                    await viewModel.getTeams()
-                    await viewModel.getMatches()
-                }
-            }
         }
     }
 

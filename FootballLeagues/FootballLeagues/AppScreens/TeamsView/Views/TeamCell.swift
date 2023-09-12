@@ -14,6 +14,12 @@ struct TeamCell: View {
     init(team: Team) {
         self.team = team
         viewModel = TeamCellViewModel(team: team)
+
+        loadData()
+    }
+
+    func loadData() {
+        viewModel.getLogoImage()
     }
 
     var body: some View {
@@ -25,11 +31,6 @@ struct TeamCell: View {
 
             Spacer()
 
-        }
-        .onAppear {
-            Task {
-                viewModel.getLogoImage()
-            }
         }
     }
 
