@@ -84,17 +84,21 @@ class LeagueCellViewModel: ObservableObject {
     }
 
     func getLogoImage() {
+        guard let urlString = competition.emblemURL,
+              let cachedImage = imageLoader.getImage(urlString: urlString) else { return }
         DispatchQueue.main.async {
-            guard let urlString = self.competition.emblemURL else { return }
-            self.logoImage = self.imageLoader.getImage(urlString: urlString)
+            self.logoImage = cachedImage
         }
     }
 
     private func setupBindings() {
         imageLoader.didUpdateImagesList = { [weak self] urlString in
-            guard let self = self, urlString == competition.emblemURL, self.logoImage == nil else { return }
+            guard let self,
+                  urlString == competition.emblemURL,
+                  self.logoImage == nil,
+                  let image = self.imageLoader.getImage(urlString: urlString) else { return }
             DispatchQueue.main.async {
-                self.logoImage = self.imageLoader.getImage(urlString: urlString)
+                self.logoImage = image
             }
         }
     }
