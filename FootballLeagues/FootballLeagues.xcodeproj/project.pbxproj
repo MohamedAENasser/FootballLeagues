@@ -71,6 +71,8 @@
 		CF311FC62AAFF1D200BE7500 /* MatchesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF311FC52AAFF1D200BE7500 /* MatchesViewModel.swift */; };
 		CF311FC92AAFF2AD00BE7500 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF311FC82AAFF2AD00BE7500 /* Utils.swift */; };
 		CF311FCC2AB0A1DB00BE7500 /* UserDefaults+Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF311FCB2AB0A1DB00BE7500 /* UserDefaults+Storage.swift */; };
+		CFC5507D2AB12A5D00D79A2E /* ActivityIndicatorModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC5507C2AB12A5D00D79A2E /* ActivityIndicatorModifier.swift */; };
+		CFC5507F2AB12A6400D79A2E /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC5507E2AB12A6400D79A2E /* ActivityIndicator.swift */; };
 		CFEA23D52AAA1B74005271AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFEA23D42AAA1B74005271AB /* Assets.xcassets */; };
 		CFEA23D82AAA1B74005271AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFEA23D72AAA1B74005271AB /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -139,6 +141,8 @@
 		CF311FC52AAFF1D200BE7500 /* MatchesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesViewModel.swift; sourceTree = "<group>"; };
 		CF311FC82AAFF2AD00BE7500 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		CF311FCB2AB0A1DB00BE7500 /* UserDefaults+Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Storage.swift"; sourceTree = "<group>"; };
+		CFC5507C2AB12A5D00D79A2E /* ActivityIndicatorModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorModifier.swift; sourceTree = "<group>"; };
+		CFC5507E2AB12A6400D79A2E /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		CFEA23CD2AAA1B73005271AB /* FootballLeagues.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootballLeagues.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFEA23D42AAA1B74005271AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFEA23D72AAA1B74005271AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -344,7 +348,7 @@
 				CF1C2A1A2AACAA0700862A68 /* LeaguesView */,
 				CF311FAE2AAFBCFB00BE7500 /* TeamsView */,
 				CF311FB82AAFE2CA00BE7500 /* MatchesView */,
-				CF1C2A972AAD3AB400862A68 /* LoadingView.swift */,
+				CFC5507B2AB12A5000D79A2E /* LoadingView */,
 			);
 			path = AppScreens;
 			sourceTree = "<group>";
@@ -399,6 +403,16 @@
 				CF311FCB2AB0A1DB00BE7500 /* UserDefaults+Storage.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CFC5507B2AB12A5000D79A2E /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				CF1C2A972AAD3AB400862A68 /* LoadingView.swift */,
+				CFC5507E2AB12A6400D79A2E /* ActivityIndicator.swift */,
+				CFC5507C2AB12A5D00D79A2E /* ActivityIndicatorModifier.swift */,
+			);
+			path = LoadingView;
 			sourceTree = "<group>";
 		};
 		CFEA23C42AAA1B73005271AB = {
@@ -549,6 +563,7 @@
 			files = (
 				CF311FC62AAFF1D200BE7500 /* MatchesViewModel.swift in Sources */,
 				CF1C2AA52AAE39C100862A68 /* CompetitionDataStore.swift in Sources */,
+				CFC5507F2AB12A6400D79A2E /* ActivityIndicator.swift in Sources */,
 				CF1C2A202AACAD1800862A68 /* AppState.swift in Sources */,
 				CF311FAB2AAFA2BB00BE7500 /* Coordinator.swift in Sources */,
 				CF1C2A0A2AABC4B900862A68 /* NetworkService.swift in Sources */,
@@ -579,6 +594,7 @@
 				CF1C2A2E2AACFBD200862A68 /* LeagueCellViewModel.swift in Sources */,
 				CF1C2A382AACFC9B00862A68 /* Team.swift in Sources */,
 				CF1C2A172AABD73A00862A68 /* CompetitionsResponse.swift in Sources */,
+				CFC5507D2AB12A5D00D79A2E /* ActivityIndicatorModifier.swift in Sources */,
 				CF1C2A2C2AACF7EE00862A68 /* Constants.swift in Sources */,
 				CF1C2A912AAD33F900862A68 /* MatchesResponse.swift in Sources */,
 				CF311FA12AAF932F00BE7500 /* SceneDelegate.swift in Sources */,

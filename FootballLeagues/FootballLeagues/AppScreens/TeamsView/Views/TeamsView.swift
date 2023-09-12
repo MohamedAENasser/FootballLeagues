@@ -18,7 +18,6 @@ struct TeamsView: View {
     }
 
     func teamsListView(teams: [Team]) -> some View {
-        // TODO: Handle Screen Title
         List(teams, id: \.id) { team in
             Button {
                 let teamMatches = matches.filter { $0.homeTeam?.id == team.id || $0.awayTeam?.id == team.id }

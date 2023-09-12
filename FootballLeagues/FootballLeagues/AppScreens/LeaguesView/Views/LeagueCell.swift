@@ -114,7 +114,7 @@ struct LeagueCell: View {
 
         case .loading:
             return AnyView(
-                Text("Loading") // TODO: Handle Loading
+                ActivityIndicator(isAnimating: .constant(true), style: .medium)
             )
 
         case .failure(let error):
@@ -140,7 +140,7 @@ struct LeagueCell: View {
 
         case .loading:
             return AnyView(
-                Text("Loading") // TODO: Handle Loading
+                ActivityIndicator(isAnimating: .constant(true), style: .medium)
             )
 
         case .failure(let error):

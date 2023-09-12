@@ -9,7 +9,6 @@ import SwiftUI
 
 struct LeaguesView: View {
     @ObservedObject var viewModel = LeaguesViewModel()
-
     var body: some View {
         ZStack {
             //MARK: - Handle App States
@@ -33,7 +32,6 @@ struct LeaguesView: View {
     }
 
     func competitionListView(competitions: [Competition]) -> some View {
-        // TODO: Handle Screen Title
         List(competitions, id: \.id) { competition in
             LeagueCell(competition: competition)
                 .foregroundColor(Color.black)

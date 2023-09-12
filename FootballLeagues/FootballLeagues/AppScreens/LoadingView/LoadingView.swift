@@ -9,9 +9,8 @@ import SwiftUI
 
 struct LoadingView: View {
     var body: some View {
-        ZStack {
-            // TODO: Adding Loading UI
-        }
+        ZStack {}
+            .modifier(ActivityIndicatorModifier(isLoading: true))
     }
 }
 
