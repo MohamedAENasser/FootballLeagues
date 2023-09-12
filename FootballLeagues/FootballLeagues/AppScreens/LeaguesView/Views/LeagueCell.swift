@@ -17,20 +17,29 @@ struct LeagueCell: View {
     }
 
     var body: some View {
-        HStack {
+        Button {
+            if case .success(let teams) = viewModel.teamsStatus {
+                Coordinator.shared.navigate(to: .teams(competition: competition, teams: teams))
+            } else {
+                // TODO: Show alert
+            }
+        } label: {
+            HStack {
 
-            logoView
+                logoView
 
-            informationView
+                informationView
 
-            Spacer()
+                Spacer()
 
-        }
-        .onAppear {
-            Task {
-                viewModel.getLogoImage()
-                await viewModel.getTeams()
-                await viewModel.getMatches()
+            }
+            .foregroundColor(Color.black)
+            .onAppear {
+                Task {
+                    viewModel.getLogoImage()
+                    await viewModel.getTeams()
+                    await viewModel.getMatches()
+                }
             }
         }
     }

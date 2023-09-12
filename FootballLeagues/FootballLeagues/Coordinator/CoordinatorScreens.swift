@@ -10,6 +10,7 @@ import SwiftUI
 enum CoordinatorScreens {
     case initialScreen
     case leagues
+    case teams(competition: Competition, teams: [Team])
 
     var hostingView: UIHostingController<AnyView> {
         switch self {
@@ -20,6 +21,19 @@ enum CoordinatorScreens {
         case .leagues:
             return UIHostingController(rootView: AnyView(LeaguesView()))
 
+        case .teams(_, let teams):
+            return UIHostingController(rootView: AnyView(TeamsView(teams: teams)))
+        }
+    }
+
+    var title: String {
+        switch self {
+
+        case .initialScreen, .leagues:
+            return "Football Leagues"
+
+        case .teams(let competition, _):
+            return "\(competition.name) Teams"
         }
     }
 }

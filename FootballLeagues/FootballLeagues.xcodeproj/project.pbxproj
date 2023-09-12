@@ -62,6 +62,9 @@
 		CF311FA22AAF932F00BE7500 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF311FA02AAF932F00BE7500 /* AppDelegate.swift */; };
 		CF311FAB2AAFA2BB00BE7500 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF311FAA2AAFA2BB00BE7500 /* Coordinator.swift */; };
 		CF311FAD2AAFA3F900BE7500 /* CoordinatorScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF311FAC2AAFA3F900BE7500 /* CoordinatorScreens.swift */; };
+		CF311FB12AAFBD3E00BE7500 /* TeamsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF311FB02AAFBD3E00BE7500 /* TeamsView.swift */; };
+		CF311FB32AAFD4EC00BE7500 /* TeamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF311FB22AAFD4EC00BE7500 /* TeamCell.swift */; };
+		CF311FB72AAFD65200BE7500 /* TeamCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF311FB62AAFD65200BE7500 /* TeamCellViewModel.swift */; };
 		CFEA23D52AAA1B74005271AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFEA23D42AAA1B74005271AB /* Assets.xcassets */; };
 		CFEA23D82AAA1B74005271AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFEA23D72AAA1B74005271AB /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -121,6 +124,9 @@
 		CF311FA02AAF932F00BE7500 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF311FAA2AAFA2BB00BE7500 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		CF311FAC2AAFA3F900BE7500 /* CoordinatorScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorScreens.swift; sourceTree = "<group>"; };
+		CF311FB02AAFBD3E00BE7500 /* TeamsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsView.swift; sourceTree = "<group>"; };
+		CF311FB22AAFD4EC00BE7500 /* TeamCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCell.swift; sourceTree = "<group>"; };
+		CF311FB62AAFD65200BE7500 /* TeamCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCellViewModel.swift; sourceTree = "<group>"; };
 		CFEA23CD2AAA1B73005271AB /* FootballLeagues.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootballLeagues.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFEA23D42AAA1B74005271AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFEA23D72AAA1B74005271AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -291,14 +297,6 @@
 			path = Match;
 			sourceTree = "<group>";
 		};
-		CF1C2A962AAD3A9B00862A68 /* StateViews */ = {
-			isa = PBXGroup;
-			children = (
-				CF1C2A972AAD3AB400862A68 /* LoadingView.swift */,
-			);
-			path = StateViews;
-			sourceTree = "<group>";
-		};
 		CF1C2AA32AAE39BA00862A68 /* DataStorage */ = {
 			isa = PBXGroup;
 			children = (
@@ -316,6 +314,42 @@
 				CF311FAC2AAFA3F900BE7500 /* CoordinatorScreens.swift */,
 			);
 			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		CF311FAE2AAFBCFB00BE7500 /* TeamsView */ = {
+			isa = PBXGroup;
+			children = (
+				CF311FB42AAFD61300BE7500 /* Views */,
+				CF311FB52AAFD61A00BE7500 /* ViewModels */,
+			);
+			path = TeamsView;
+			sourceTree = "<group>";
+		};
+		CF311FAF2AAFBD2200BE7500 /* AppScreens */ = {
+			isa = PBXGroup;
+			children = (
+				CF1C2A1A2AACAA0700862A68 /* LeaguesView */,
+				CF311FAE2AAFBCFB00BE7500 /* TeamsView */,
+				CF1C2A972AAD3AB400862A68 /* LoadingView.swift */,
+			);
+			path = AppScreens;
+			sourceTree = "<group>";
+		};
+		CF311FB42AAFD61300BE7500 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CF311FB02AAFBD3E00BE7500 /* TeamsView.swift */,
+				CF311FB22AAFD4EC00BE7500 /* TeamCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CF311FB52AAFD61A00BE7500 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CF311FB62AAFD65200BE7500 /* TeamCellViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		CFEA23C42AAA1B73005271AB = {
@@ -339,13 +373,12 @@
 			children = (
 				CF311FA02AAF932F00BE7500 /* AppDelegate.swift */,
 				CF311F9F2AAF932E00BE7500 /* SceneDelegate.swift */,
+				CF311FAF2AAFBD2200BE7500 /* AppScreens */,
 				CF311FA92AAFA2AB00BE7500 /* Coordinator */,
 				CF1C2AA32AAE39BA00862A68 /* DataStorage */,
 				CF1C2A392AAD1F6600862A68 /* Stubs */,
-				CF1C2A1A2AACAA0700862A68 /* LeaguesView */,
 				CF1C2A152AABD72200862A68 /* Models */,
 				CF1C2A102AABCC5600862A68 /* Utils */,
-				CF1C2A962AAD3A9B00862A68 /* StateViews */,
 				CF1C2A082AABB65C00862A68 /* Network */,
 				CFEA23D42AAA1B74005271AB /* Assets.xcassets */,
 				CFEA23D62AAA1B74005271AB /* Preview Content */,
@@ -479,12 +512,15 @@
 				CF1C2A192AABDE1300862A68 /* Competition.swift in Sources */,
 				CF1C2A142AABD6EA00862A68 /* CompetitionsRequest.swift in Sources */,
 				CF1C2A952AAD35AB00862A68 /* MatchesRequest.swift in Sources */,
+				CF311FB32AAFD4EC00BE7500 /* TeamCell.swift in Sources */,
+				CF311FB12AAFBD3E00BE7500 /* TeamsView.swift in Sources */,
 				CF311FA22AAF932F00BE7500 /* AppDelegate.swift in Sources */,
 				CF1C2A222AACAD4B00862A68 /* AppError.swift in Sources */,
 				CF1C2A932AAD347A00862A68 /* Match.swift in Sources */,
 				CF1C2A982AAD3AB400862A68 /* LoadingView.swift in Sources */,
 				CF1C2AA72AAE551E00862A68 /* TeamDataStore.swift in Sources */,
 				CF1C2A9C2AAD4F9200862A68 /* ImageLoader.swift in Sources */,
+				CF311FB72AAFD65200BE7500 /* TeamCellViewModel.swift in Sources */,
 				CF1C2A2E2AACFBD200862A68 /* LeagueCellViewModel.swift in Sources */,
 				CF1C2A382AACFC9B00862A68 /* Team.swift in Sources */,
 				CF1C2A172AABD73A00862A68 /* CompetitionsResponse.swift in Sources */,

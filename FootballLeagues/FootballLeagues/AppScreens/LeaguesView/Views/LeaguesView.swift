@@ -15,10 +15,7 @@ struct LeaguesView: View {
             //MARK: - Handle App States
             switch viewModel.state {
             case .success(let competitions):
-                // TODO: Handle Screen Title
-                List(competitions, id: \.id) { competition in
-                    LeagueCell(competition: competition)
-                }
+                competitionListView(competitions: competitions)
 
             case .failure(let error):
                 Text(error.description) // TODO: - Error handling
@@ -31,6 +28,14 @@ struct LeaguesView: View {
             Task {
                 await viewModel.getCompetitions()
             }
+        }
+    }
+
+    func competitionListView(competitions: [Competition]) -> some View {
+        // TODO: Handle Screen Title
+        List(competitions, id: \.id) { competition in
+            LeagueCell(competition: competition)
+                .foregroundColor(Color.black)
         }
     }
 }
