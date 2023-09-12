@@ -22,7 +22,9 @@ class MatchDataStore {
     private let matchUtcDate  = Expression<String>("matchUtcDate")
     private let matchStatus  = Expression<String>("matchStatus")
     private let matchLastUpdated  = Expression<String>("matchLastUpdated")
-    private let matchScore  = Expression<String>("matchScore")
+    private let matchWinner  = Expression<String>("matchWinner")
+    private let matchHomeTeamScore  = Expression<Int>("matchHomeTeamScore")
+    private let matchAwayTeamScore  = Expression<Int>("matchAwayTeamScore")
     private let matchHomeTeamID  = Expression<Int>("matchHomeTeamID")
     private let matchHomeTeamName  = Expression<String>("matchHomeTeamName")
     private let matchAwayTeamID = Expression<Int>("matchAwayTeamID")
@@ -63,7 +65,9 @@ class MatchDataStore {
                 table.column(matchUtcDate)
                 table.column(matchStatus)
                 table.column(matchLastUpdated)
-                table.column(matchScore)
+                table.column(matchWinner)
+                table.column(matchHomeTeamScore)
+                table.column(matchAwayTeamScore)
                 table.column(matchHomeTeamID)
                 table.column(matchHomeTeamName)
                 table.column(matchAwayTeamID)
@@ -85,7 +89,9 @@ class MatchDataStore {
                                          matchUtcDate <- match.utcDate ?? "",
                                          matchStatus <- match.status?.rawValue ?? "",
                                          matchLastUpdated <- match.lastUpdated ?? "",
-                                         matchScore <- match.score?.winner?.rawValue ?? "",
+                                         matchWinner <- match.score?.winner?.rawValue ?? "",
+                                         matchHomeTeamScore <- match.score?.fullTime.homeTeam ?? 0,
+                                         matchAwayTeamScore <- match.score?.fullTime.awayTeam ?? 0,
                                          matchHomeTeamID <- match.homeTeam?.id ?? 0,
                                          matchHomeTeamName <- match.homeTeam?.name ?? "",
                                          matchAwayTeamID <- match.awayTeam?.id ?? 0,
@@ -110,9 +116,9 @@ class MatchDataStore {
                     matches.append(Match(
                         id: match[matchID],
                         utcDate: match[matchUtcDate],
-                        status: Status(rawValue: match[matchStatus]),
+                        status: Match.Status(rawValue: match[matchStatus]),
                         lastUpdated: match[matchLastUpdated],
-                        score: Score(winner: Winner(rawValue: match[matchScore])),
+                        score: Match.Score(fullTime: Match.TimeModel(awayTeam: match[matchAwayTeamScore], homeTeam: match[matchHomeTeamScore]), winner: Match.Winner(rawValue: match[matchWinner])),
                         homeTeam: Area(id: match[matchHomeTeamID], name: match[matchHomeTeamName]),
                         awayTeam: Area(id: match[matchAwayTeamID], name: match[matchAwayTeamName]))
                     )

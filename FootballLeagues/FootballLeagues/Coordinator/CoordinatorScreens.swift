@@ -10,7 +10,8 @@ import SwiftUI
 enum CoordinatorScreens {
     case initialScreen
     case leagues
-    case teams(competition: Competition, teams: [Team])
+    case teams(competition: Competition, teams: [Team], matches: [Match])
+    case matches(team: Team, matches: [Match])
 
     var hostingView: UIHostingController<AnyView> {
         switch self {
@@ -21,8 +22,11 @@ enum CoordinatorScreens {
         case .leagues:
             return UIHostingController(rootView: AnyView(LeaguesView()))
 
-        case .teams(_, let teams):
-            return UIHostingController(rootView: AnyView(TeamsView(teams: teams)))
+        case .teams(_, let teams, let matches):
+            return UIHostingController(rootView: AnyView(TeamsView(teams: teams, matches: matches)))
+
+        case .matches(let team, let matches):
+            return UIHostingController(rootView: AnyView(MatchesView(team: team, matches: matches)))
         }
     }
 
@@ -32,8 +36,11 @@ enum CoordinatorScreens {
         case .initialScreen, .leagues:
             return "Football Leagues"
 
-        case .teams(let competition, _):
+        case .teams(let competition, _, _):
             return "\(competition.name) Teams"
+
+        case .matches(let team, _):
+            return "\(team.name ?? "") Matches"
         }
     }
 }

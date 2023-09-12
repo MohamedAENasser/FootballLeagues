@@ -8,7 +8,7 @@
 import Foundation
 
 // MARK: - Match
-struct Match: Codable {
+struct Match: Codable, Identifiable {
     let id: Int
     let utcDate: String?
     let status: Status?
@@ -16,20 +16,33 @@ struct Match: Codable {
     let score: Score?
     let homeTeam: Area?
     let awayTeam: Area?
-}
 
-// MARK: - Score
-struct Score: Codable {
-    let winner: Winner?
-}
+    var matchDate: Date {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZ"
+        return dateFormatter.date(from: utcDate ?? "") ?? Date()
+    }
 
-enum Winner: String, Codable {
-    case awayTeam = "AWAY_TEAM"
-    case draw = "DRAW"
-    case homeTeam = "HOME_TEAM"
-}
+    // MARK: - Score
+    struct Score: Codable {
+        let fullTime: TimeModel
+        let winner: Winner?
+    }
 
-enum Status: String, Codable {
-    case finished = "FINISHED"
-    case scheduled = "SCHEDULED"
+    // MARK: - ExtraTime
+    struct TimeModel: Codable {
+        let awayTeam, homeTeam: Int?
+    }
+
+    enum Winner: String, Codable {
+        case awayTeam = "AWAY_TEAM"
+        case draw = "DRAW"
+        case homeTeam = "HOME_TEAM"
+    }
+
+    enum Status: String, Codable {
+        case finished = "FINISHED"
+        case scheduled = "SCHEDULED"
+        case postponed = "POSTPONED"
+    }
 }

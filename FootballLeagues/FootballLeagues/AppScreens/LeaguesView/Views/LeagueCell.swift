@@ -18,8 +18,12 @@ struct LeagueCell: View {
 
     var body: some View {
         Button {
+            var leagueMatches: [Match] = []
+            if case .success(let matches) = viewModel.matchesStatus {
+                leagueMatches = matches
+            }
             if case .success(let teams) = viewModel.teamsStatus {
-                Coordinator.shared.navigate(to: .teams(competition: competition, teams: teams))
+                Coordinator.shared.navigate(to: .teams(competition: competition, teams: teams, matches: leagueMatches))
             } else {
                 // TODO: Show alert
             }

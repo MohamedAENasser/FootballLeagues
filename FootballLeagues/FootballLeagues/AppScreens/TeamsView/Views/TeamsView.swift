@@ -9,6 +9,7 @@ import SwiftUI
 
 struct TeamsView: View {
     let teams: [Team]
+    let matches: [Match]
 
     var body: some View {
         teamsListView(teams: teams)
@@ -18,7 +19,12 @@ struct TeamsView: View {
         // TODO: Handle Screen Title
         List(teams, id: \.id) { team in
             Button {
-                // TODO: Navigate to matches screen
+                let teamMatches = matches.filter { $0.homeTeam?.id == team.id || $0.awayTeam?.id == team.id }
+                if teamMatches.isEmpty {
+                    // TODO: Show Alert.
+                } else {
+                    Coordinator.shared.navigate(to: .matches(team: team, matches: teamMatches))
+                }
             } label: {
                 TeamCell(team: team)
                     .foregroundColor(Color.black)
