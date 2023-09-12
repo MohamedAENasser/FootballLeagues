@@ -29,19 +29,23 @@ struct LeagueCell: View {
 
     var body: some View {
         Button {
-            var leagueMatches: [Match] = []
-            if case .success(let matches) = viewModel.matchesStatus {
-                leagueMatches = matches
+            guard case .success(let teams) = viewModel.teamsStatus, !teams.isEmpty else {
+                Coordinator.shared.show(
+                    .alert(
+                        title: "Failed to load teams",
+                        description: "There was an error loading the teams data, can be server is down or your subscription is not eligible for this information",
+                        action: (title: "Retry", action: {
+                            Task {
+                                await viewModel.getTeams()
+                            }
+                        })
+                    )
+                )
+                return
             }
+            let leagueMatches = viewModel.matchesStatus.value ?? []
 
-            var leagueTeams: [Team] = []
-            if case .success(let teams) = viewModel.teamsStatus {
-                leagueTeams = teams
-            }
-            if !leagueTeams.isEmpty {
-                Coordinator.shared.show(.teams(competition: competition, teams: leagueTeams, matches: leagueMatches))
-            }
-
+            Coordinator.shared.show(.teams(competition: competition, teams: teams, matches: leagueMatches))
         } label: {
             HStack {
 
@@ -117,9 +121,19 @@ struct LeagueCell: View {
                 ActivityIndicator(isAnimating: .constant(true), style: .medium)
             )
 
-        case .failure(let error):
+        case .failure:
             return AnyView(
-                Text(error.description) // TODO: Error Handling
+                Button(action: {
+                    Task {
+                        await viewModel.getTeams()
+                    }
+                }, label: {
+                    VStack {
+                        Text("Failed")
+
+                        Image(systemName: "arrow.counterclockwise")
+                    }
+                })
             )
 
         }
@@ -143,9 +157,19 @@ struct LeagueCell: View {
                 ActivityIndicator(isAnimating: .constant(true), style: .medium)
             )
 
-        case .failure(let error):
+        case .failure:
             return AnyView(
-                Text(error.description) // TODO: Error Handling
+                Button(action: {
+                    Task {
+                        await viewModel.getMatches()
+                    }
+                }, label: {
+                    VStack {
+                        Text("Failed")
+
+                        Image(systemName: "arrow.counterclockwise")
+                    }
+                })
             )
 
         }

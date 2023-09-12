@@ -22,7 +22,13 @@ struct TeamsView: View {
             Button {
                 let teamMatches = matches.filter { $0.homeTeam?.id == team.id || $0.awayTeam?.id == team.id }
                 if teamMatches.isEmpty {
-                    // TODO: Show Alert.
+                    Coordinator.shared.show(
+                        .alert(
+                            title: "No Matches available",
+                            description: "There is no current matches scheduled for \(team.name ?? "")",
+                            action: nil
+                        )
+                    )
                 } else {
                     Coordinator.shared.show(.matches(team: team, matches: teamMatches))
                 }

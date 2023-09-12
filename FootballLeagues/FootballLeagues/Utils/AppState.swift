@@ -11,4 +11,15 @@ enum AppState<T> {
     case success(T)
     case failure(AppError)
     case loading
+
+    var value: T? {
+        switch self {
+
+        case .success(let t):
+            return t
+
+        default:
+            return nil
+        }
+    }
 }

@@ -73,6 +73,7 @@
 		CF311FCC2AB0A1DB00BE7500 /* UserDefaults+Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF311FCB2AB0A1DB00BE7500 /* UserDefaults+Storage.swift */; };
 		CFC5507D2AB12A5D00D79A2E /* ActivityIndicatorModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC5507C2AB12A5D00D79A2E /* ActivityIndicatorModifier.swift */; };
 		CFC5507F2AB12A6400D79A2E /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC5507E2AB12A6400D79A2E /* ActivityIndicator.swift */; };
+		CFC550812AB12B6400D79A2E /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC550802AB12B6400D79A2E /* ErrorView.swift */; };
 		CFEA23D52AAA1B74005271AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFEA23D42AAA1B74005271AB /* Assets.xcassets */; };
 		CFEA23D82AAA1B74005271AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFEA23D72AAA1B74005271AB /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -143,6 +144,7 @@
 		CF311FCB2AB0A1DB00BE7500 /* UserDefaults+Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Storage.swift"; sourceTree = "<group>"; };
 		CFC5507C2AB12A5D00D79A2E /* ActivityIndicatorModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorModifier.swift; sourceTree = "<group>"; };
 		CFC5507E2AB12A6400D79A2E /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		CFC550802AB12B6400D79A2E /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		CFEA23CD2AAA1B73005271AB /* FootballLeagues.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootballLeagues.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFEA23D42AAA1B74005271AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFEA23D72AAA1B74005271AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -411,6 +413,7 @@
 				CF1C2A972AAD3AB400862A68 /* LoadingView.swift */,
 				CFC5507E2AB12A6400D79A2E /* ActivityIndicator.swift */,
 				CFC5507C2AB12A5D00D79A2E /* ActivityIndicatorModifier.swift */,
+				CFC550802AB12B6400D79A2E /* ErrorView.swift */,
 			);
 			path = LoadingView;
 			sourceTree = "<group>";
@@ -598,6 +601,7 @@
 				CF1C2A2C2AACF7EE00862A68 /* Constants.swift in Sources */,
 				CF1C2A912AAD33F900862A68 /* MatchesResponse.swift in Sources */,
 				CF311FA12AAF932F00BE7500 /* SceneDelegate.swift in Sources */,
+				CFC550812AB12B6400D79A2E /* ErrorView.swift in Sources */,
 				CF311FBF2AAFE2E000BE7500 /* MatchCellViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

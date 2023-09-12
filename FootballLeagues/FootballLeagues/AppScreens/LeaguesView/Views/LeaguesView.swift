@@ -17,7 +17,11 @@ struct LeaguesView: View {
                 competitionListView(competitions: competitions)
 
             case .failure(let error):
-                Text(error.description) // TODO: - Error handling
+                ErrorView(error: error) {
+                    Task {
+                        await viewModel.getCompetitions()
+                    }
+                }
 
             case .loading:
                 LoadingView()
