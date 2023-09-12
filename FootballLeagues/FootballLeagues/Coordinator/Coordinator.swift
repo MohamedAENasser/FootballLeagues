@@ -12,15 +12,19 @@ class Coordinator {
     private let navigationController: UINavigationController
 
     private init () {
-        navigationController = UINavigationController(rootViewController: CoordinatorScreens.initialScreen.hostingView)
+        navigationController = UINavigationController(rootViewController: CoordinatorScreens.initialScreen.viewController)
     }
 
     func initialViewController() -> UINavigationController {
         navigationController
     }
 
-    func navigate(to screen: CoordinatorScreens) {
-        navigationController.pushViewController(screen.hostingView, animated: true)
+    func show(_ screen: CoordinatorScreens) {
+        switch screen {
+        case .alert:
+            navigationController.topViewController?.present(screen.viewController, animated: true)
+        default:
+            navigationController.pushViewController(screen.viewController, animated: true)
+        }
     }
-
 }

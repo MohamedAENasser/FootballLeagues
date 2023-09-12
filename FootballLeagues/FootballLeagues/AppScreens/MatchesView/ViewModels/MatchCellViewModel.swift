@@ -10,8 +10,8 @@ import Combine
 
 class MatchCellViewModel: ObservableObject {
     private var match: Match?
-    @Published var homeTeamScore: String = ""
-    @Published var awayTeamScore: String = ""
+    @Published var homeTeamScore: String = "-"
+    @Published var awayTeamScore: String = "-"
     @Published var homeTeamScoreColor: Color = .black
     @Published var awayTeamScoreColor: Color = .black
     @Published var status: Match.Status = .finished
@@ -25,12 +25,16 @@ class MatchCellViewModel: ObservableObject {
     /// Setup teams details for the match.
     func setup(with match: Match) {
         self.match = match
-        if let homeTeamScoreValue = match.score?.fullTime.homeTeam {
-            homeTeamScore = "\(homeTeamScoreValue)"
-        }
 
-        if let awayTeamScoreValue = match.score?.fullTime.awayTeam {
-            awayTeamScore = "\(awayTeamScoreValue)"
+        // Setup scores if the match finished
+        if match.status == .finished {
+            if let homeTeamScoreValue = match.score?.fullTime.homeTeam {
+                homeTeamScore = "\(homeTeamScoreValue)"
+            }
+
+            if let awayTeamScoreValue = match.score?.fullTime.awayTeam {
+                awayTeamScore = "\(awayTeamScoreValue)"
+            }
         }
 
         status = match.status ?? .finished

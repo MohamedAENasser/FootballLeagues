@@ -9,7 +9,8 @@ import SwiftUI
 
 struct LeagueCell: View {
     @ObservedObject var viewModel: LeagueCellViewModel
-    @State var competition: Competition
+    private var competition: Competition
+    @State private var showingEmptyTeamsAlert = false
 
     init(competition: Competition) {
         self.competition = competition
@@ -32,11 +33,25 @@ struct LeagueCell: View {
             if case .success(let matches) = viewModel.matchesStatus {
                 leagueMatches = matches
             }
+
+            var leagueTeams: [Team] = []
             if case .success(let teams) = viewModel.teamsStatus {
-                Coordinator.shared.navigate(to: .teams(competition: competition, teams: teams, matches: leagueMatches))
-            } else {
-                // TODO: Show alert
+                leagueTeams = teams
             }
+            if !leagueTeams.isEmpty {
+                Coordinator.shared.show(.teams(competition: competition, teams: leagueTeams, matches: leagueMatches))
+            } else if leagueTeams.isEmpty && !leagueMatches.isEmpty {
+                Coordinator.shared.show(
+                    .alert(
+                        title: "Not available info for the teams",
+                        description: "There is no available information about teams in the mean time, You still can see the available matches",
+                        action: (title: "Go To Matches", action: {
+                            Coordinator.shared.show(.matches(team: nil, matches: leagueMatches))
+                        })
+                    )
+                )
+            }
+
         } label: {
             HStack {
 

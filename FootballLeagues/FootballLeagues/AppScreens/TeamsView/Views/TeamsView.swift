@@ -23,7 +23,7 @@ struct TeamsView: View {
                 if teamMatches.isEmpty {
                     // TODO: Show Alert.
                 } else {
-                    Coordinator.shared.navigate(to: .matches(team: team, matches: teamMatches))
+                    Coordinator.shared.show(.matches(team: team, matches: teamMatches))
                 }
             } label: {
                 TeamCell(team: team)

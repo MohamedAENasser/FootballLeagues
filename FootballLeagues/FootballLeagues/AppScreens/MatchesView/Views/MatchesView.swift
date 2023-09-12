@@ -9,11 +9,9 @@ import SwiftUI
 
 struct MatchesView: View {
     @ObservedObject private var viewModel: MatchesViewModel
-    let team: Team
     let matches: [Match]
 
-    init(team: Team, matches: [Match]) {
-        self.team = team
+    init(matches: [Match]) {
         self.matches = matches
         viewModel = MatchesViewModel(matches: matches)
     }
