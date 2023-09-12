@@ -40,16 +40,6 @@ struct LeagueCell: View {
             }
             if !leagueTeams.isEmpty {
                 Coordinator.shared.show(.teams(competition: competition, teams: leagueTeams, matches: leagueMatches))
-            } else if leagueTeams.isEmpty && !leagueMatches.isEmpty {
-                Coordinator.shared.show(
-                    .alert(
-                        title: "Not available info for the teams",
-                        description: "There is no available information about teams in the mean time, You still can see the available matches",
-                        action: (title: "Go To Matches", action: {
-                            Coordinator.shared.show(.matches(team: nil, matches: leagueMatches))
-                        })
-                    )
-                )
             }
 
         } label: {

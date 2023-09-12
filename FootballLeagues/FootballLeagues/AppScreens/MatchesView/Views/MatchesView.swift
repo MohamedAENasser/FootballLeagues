@@ -9,15 +9,18 @@ import SwiftUI
 
 struct MatchesView: View {
     @ObservedObject private var viewModel: MatchesViewModel
+    let team: Team
     let matches: [Match]
 
-    init(matches: [Match]) {
+    init(team: Team, matches: [Match]) {
+        self.team = team
         self.matches = matches
         viewModel = MatchesViewModel(matches: matches)
     }
 
     var body: some View {
         matchesListView(matches: matches)
+            .navigationBarTitle(CoordinatorScreens.matches(team: team, matches: matches).title)
             .onAppear {
                 viewModel.setupMatchesPerDay()
             }

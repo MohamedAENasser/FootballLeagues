@@ -24,6 +24,7 @@ struct LeaguesView: View {
                 LoadingView()
             }
         }
+        .navigationBarTitle(CoordinatorScreens.leagues.title)
         .onAppear {
             Task {
                 await viewModel.getCompetitions()

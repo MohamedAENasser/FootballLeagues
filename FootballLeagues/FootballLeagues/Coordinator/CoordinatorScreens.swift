@@ -13,7 +13,7 @@ enum CoordinatorScreens {
     case initialScreen
     case leagues
     case teams(competition: Competition, teams: [Team], matches: [Match])
-    case matches(team: Team?, matches: [Match])
+    case matches(team: Team, matches: [Match])
     case alert(title: String, description: String, action: AlertAction?)
 
     var viewController: UIViewController {
@@ -25,11 +25,11 @@ enum CoordinatorScreens {
         case .leagues:
             return UIHostingController(rootView: AnyView(LeaguesView()))
 
-        case .teams(_, let teams, let matches):
-            return UIHostingController(rootView: AnyView(TeamsView(teams: teams, matches: matches)))
+        case .teams(let competition, let teams, let matches):
+            return UIHostingController(rootView: AnyView(TeamsView(competition: competition, teams: teams, matches: matches)))
 
-        case .matches(_, let matches):
-            return UIHostingController(rootView: AnyView(MatchesView(matches: matches)))
+        case .matches(let team, let matches):
+            return UIHostingController(rootView: AnyView(MatchesView(team: team, matches: matches)))
 
         case .alert(title: let title, description: let description, let action):
             let alertController = UIAlertController(title: title, message: description, preferredStyle: .alert)
@@ -53,7 +53,7 @@ enum CoordinatorScreens {
             return "\(competition.name) Teams"
 
         case .matches(let team, _):
-            return "\(team?.name ?? "All") Matches"
+            return "\(team.name ?? "All") Matches"
 
         default:
             return ""

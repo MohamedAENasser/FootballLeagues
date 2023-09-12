@@ -8,11 +8,13 @@
 import SwiftUI
 
 struct TeamsView: View {
+    let competition: Competition
     let teams: [Team]
     let matches: [Match]
 
     var body: some View {
         teamsListView(teams: teams)
+            .navigationBarTitle(CoordinatorScreens.teams(competition: competition, teams: teams, matches: matches).title)
     }
 
     func teamsListView(teams: [Team]) -> some View {
