@@ -44,7 +44,7 @@ struct TeamsView: View {
     }
 
     func teamCell(_ team: Team) -> some View {
-        Button {
+        TeamCell(team: team) {
             let teamMatches = matches.filter { $0.homeTeam?.id == team.id || $0.awayTeam?.id == team.id }
             if teamMatches.isEmpty {
                 Coordinator.shared.show(
@@ -57,10 +57,7 @@ struct TeamsView: View {
             } else {
                 Coordinator.shared.show(.matches(team: team, matches: teamMatches))
             }
-        } label: {
-            TeamCell(team: team)
-                .foregroundColor(Color.black)
-                .frame(height: 100)
         }
+        .foregroundColor(Color.black)
     }
 }

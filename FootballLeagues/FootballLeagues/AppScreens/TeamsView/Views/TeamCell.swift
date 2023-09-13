@@ -10,9 +10,13 @@ import SwiftUI
 struct TeamCell: View {
     @ObservedObject var viewModel: TeamCellViewModel
     let team: Team
+    var isInteractionEnabled: Bool
+    let onTapAction: () -> Void
 
-    init(team: Team) {
+    init(team: Team, onTapAction: @escaping () -> Void = {}, isInteractionEnabled: Bool = true) {
+        self.isInteractionEnabled = isInteractionEnabled
         self.team = team
+        self.onTapAction = onTapAction
         viewModel = TeamCellViewModel(team: team)
 
         loadData()
@@ -23,14 +27,19 @@ struct TeamCell: View {
     }
 
     var body: some View {
-        HStack {
+        Button {
+            guard isInteractionEnabled else { return }
+            onTapAction()
+        } label: {
+            HStack {
 
-            logoView
+                logoView
 
-            informationView
+                informationView
 
-            Spacer()
+                Spacer()
 
+            }
         }
     }
 
