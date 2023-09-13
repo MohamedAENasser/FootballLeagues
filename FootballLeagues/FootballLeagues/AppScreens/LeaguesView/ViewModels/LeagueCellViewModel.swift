@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Combine
 
 class LeagueCellViewModel: ObservableObject {
     let networkService: NetworkServiceProtocol
@@ -16,6 +17,8 @@ class LeagueCellViewModel: ObservableObject {
     @Published var teamsStatus: AppState<[Team]> = .loading
     @Published var matchesStatus: AppState<[Match]> = .loading
     @Published var logoImage: UIImage?
+    @Published private var fetchedImage: UIImage?
+    
 
     // Storage
     private var storedTeams: [Team] = []
@@ -136,18 +139,27 @@ class LeagueCellViewModel: ObservableObject {
         guard let urlString = competition.emblemURL,
               let cachedImage = imageLoader.getImage(urlString: urlString) else { return }
         DispatchQueue.main.async {
-            self.logoImage = cachedImage
+            self.fetchedImage = cachedImage
         }
     }
 
     private func setupBindings() {
+        $fetchedImage.subscribe(Subscribers.Sink(
+            receiveCompletion: { _ in
+            }, receiveValue: { [weak self] image in
+                guard let self else { return }
+                DispatchQueue.main.async {
+                    self.logoImage = image
+                }
+            }))
+        
         imageLoader.didUpdateImagesList = { [weak self] urlString in
             guard let self,
                   urlString == competition.emblemURL,
                   self.logoImage == nil,
                   let image = self.imageLoader.getImage(urlString: urlString) else { return }
             DispatchQueue.main.async {
-                self.logoImage = image
+                self.fetchedImage = image
             }
         }
     }
