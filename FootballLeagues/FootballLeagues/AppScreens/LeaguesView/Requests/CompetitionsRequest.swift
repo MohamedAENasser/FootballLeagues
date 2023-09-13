@@ -18,6 +18,8 @@ struct CompetitionsRequest: DataRequestProtocol {
         .get
     }
 
+    /// UnComment the following if you want to load the data from local stubs
+    /*
     var sampleData: CompetitionsResponse? {
         do {
             return try getModelFromFile(with: "Competitions_Stub")
@@ -25,4 +27,5 @@ struct CompetitionsRequest: DataRequestProtocol {
             return nil
         }
     }
+     */
 }

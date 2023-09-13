@@ -19,6 +19,8 @@ struct TeamsRequest: DataRequestProtocol {
         .get
     }
 
+    /// UnComment the following if you want to load the data from local stubs
+    /*
     var sampleData: TeamsResponse? {
         do {
             return try getModelFromFile(with: "Teams_Stub_\(competitionID)")
@@ -26,4 +28,5 @@ struct TeamsRequest: DataRequestProtocol {
             return nil
         }
     }
+    */
 }
