@@ -8,7 +8,7 @@
 import Foundation
 
 // MARK: - Competition
-struct Competition: Codable {
+struct Competition: Codable, Identifiable {
     let id: Int
     let name: String
     let emblemURL: String?

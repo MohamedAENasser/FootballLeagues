@@ -8,7 +8,7 @@
 import Foundation
 
 // MARK: - Team
-struct Team: Codable {
+struct Team: Codable, Identifiable {
     let id: Int
     let area: Area?
     let name, shortName, tla: String?

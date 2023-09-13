@@ -7,10 +7,16 @@
 
 import SwiftUI
 
+enum TeamsViewSections: Int {
+    case competition = 0
+    case teams
+}
+
 struct TeamsView: View {
     let competition: Competition
     let teams: [Team]
     let matches: [Match]
+    private let sections: [TeamsViewSections] = [.competition, .teams]
 
     var body: some View {
         teamsListView(teams: teams)
@@ -18,24 +24,43 @@ struct TeamsView: View {
     }
 
     func teamsListView(teams: [Team]) -> some View {
-        List(teams, id: \.id) { team in
-            Button {
-                let teamMatches = matches.filter { $0.homeTeam?.id == team.id || $0.awayTeam?.id == team.id }
-                if teamMatches.isEmpty {
-                    Coordinator.shared.show(
-                        .alert(
-                            title: "No Matches available",
-                            description: "There is no current matches scheduled for \(team.name ?? "")",
-                            action: nil
-                        )
-                    )
-                } else {
-                    Coordinator.shared.show(.matches(team: team, matches: teamMatches))
+        List {
+            ForEach(sections, id: \.self) { section in
+                if section == .competition {
+                    competitionSection()
+                } else if section == .teams {
+                    ForEach(teams) { team in
+                        teamCell(team)
+                    }
                 }
-            } label: {
-                TeamCell(team: team)
-                    .foregroundColor(Color.black)
             }
+        }
+    }
+
+    func competitionSection() -> some View {
+        Section {
+            LeagueCell(competition: competition, isInteractionEnabled: false)
+        }
+    }
+
+    func teamCell(_ team: Team) -> some View {
+        Button {
+            let teamMatches = matches.filter { $0.homeTeam?.id == team.id || $0.awayTeam?.id == team.id }
+            if teamMatches.isEmpty {
+                Coordinator.shared.show(
+                    .alert(
+                        title: "No Matches available",
+                        description: "There is no current matches scheduled for \(team.name ?? "")",
+                        action: nil
+                    )
+                )
+            } else {
+                Coordinator.shared.show(.matches(team: team, matches: teamMatches))
+            }
+        } label: {
+            TeamCell(team: team)
+                .foregroundColor(Color.black)
+                .frame(height: 100)
         }
     }
 }

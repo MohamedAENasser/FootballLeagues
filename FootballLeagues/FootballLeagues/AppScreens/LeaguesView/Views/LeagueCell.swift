@@ -9,10 +9,12 @@ import SwiftUI
 
 struct LeagueCell: View {
     @ObservedObject var viewModel: LeagueCellViewModel
-    private var competition: Competition
     @State private var showingEmptyTeamsAlert = false
+    private var competition: Competition
+    var isInteractionEnabled: Bool
 
-    init(competition: Competition) {
+    init(competition: Competition, isInteractionEnabled: Bool = true) {
+        self.isInteractionEnabled = isInteractionEnabled
         self.competition = competition
         viewModel = LeagueCellViewModel(competition: competition)
 
@@ -29,6 +31,7 @@ struct LeagueCell: View {
 
     var body: some View {
         Button {
+            guard isInteractionEnabled else { return }
             guard case .success(let teams) = viewModel.teamsStatus, !teams.isEmpty else {
                 Coordinator.shared.show(
                     .alert(
