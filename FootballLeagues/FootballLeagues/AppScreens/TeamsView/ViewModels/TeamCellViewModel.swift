@@ -34,9 +34,7 @@ class TeamCellViewModel: ObservableObject {
             receiveCompletion: { _ in
             }, receiveValue: { [weak self] image in
                 guard let self else { return }
-                DispatchQueue.main.async {
-                    self.logoImage = image
-                }
+                self.logoImage = image
             }))
 
         imageLoader.didUpdateImagesList = { [weak self] urlString in
